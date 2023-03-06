@@ -10,52 +10,11 @@ else:
     fn = f'data/processed/{log}.csv'
 
 if preprocess:
-    if log == 'wabo':
-        df = pd.read_csv(fn)[[
-            'Case ID', 'Resource', 'Complete Timestamp',
-            'org:group', 'group',
-            'concept:name', 'responsible', 'department', 'channel'
-        ]]
-
-        df = df.rename(columns={
-            # Resource-related
-            'department': 'r:department',
-            'org:group': 'r:org:group',
-            'group': 'r:group',
-            # CT-related
-            'channel': 'ct:channel',
-            # AT-related
-            'concept:name': 'Activity',
-        })
-        
-        # filter meaningless values
-        #df = df[~df['r:org:group'].isin(['EMPTY'])]
-        #df = df[~df['r:group'].isin([''])]
-
-    if log == 'bpic17':
-        df = pd.read_csv(fn)[[
-            'Case ID', 'Activity', 'Resource', 'Complete Timestamp',
-            'EventOrigin', 'LoanGoal', 'ApplicationType', 'RequestedAmount'
-        ]]
-
-        df = df.rename(columns={
-            # Resource-related
-            # CT-related
-            'LoanGoal': 'ct:loan_goal', 
-            'ApplicationType': 'ct:application_type', 
-            'RequestedAmount': 'ct:requested_amount', 
-            # AT-related
-            'EventOrigin': 'at:event_origin'
-        })
-        
-        # filter meaningless values
-        #df = df[~df['ct:loan_goal'].isin(['Unknown'])]
-        
-
+         
     if log == 'bpic15':
         df = pd.read_csv(fn)[[
             'Case ID', 'Activity', 'Resource', 'Complete Timestamp',
-            '(case) last_phase', '(case) parts', 'action_code', 'municipality'
+            'case:last_phase', 'case:parts', 'action_code', 'municipality'
         ]]
         df = df.rename(columns={
             # Resource-related
@@ -77,9 +36,6 @@ if preprocess:
         df['at:phase'] = df['action_code'].apply(lambda code: code[:10])
         
         # filter meaningless values
-
-    if log == 'bpic18':
-        pass
 
     # Universal (on Disco outputs)
     # derive and append TT related candidate attributes
