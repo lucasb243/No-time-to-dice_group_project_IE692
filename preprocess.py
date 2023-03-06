@@ -1,6 +1,6 @@
 import pandas as pd
 # Load raw data & Preprocess DataFrame (enrich with derived attributes)
-log = 'bpic17'
+log = 'bpic15'
 
 preprocess = True
 
@@ -61,11 +61,11 @@ if preprocess:
             # Resource-related
             'municipality': 'r:municipality',
             # CT-related
-            '(case) last_phase': 'ct:last_phase', 
+            'case:last_phase': 'ct:last_phase', 
             # AT-related
         })
         df = df.rename(columns={
-            '(case) parts': 'case_parts'
+            'case:parts': 'case_parts'
         })
         # TODO: derive 'ct:permit_type', 'at:phase'
         df = df[~df['case_parts'].isna()]
