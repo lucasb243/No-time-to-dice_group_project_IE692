@@ -13,12 +13,14 @@ if preprocess:
          
     if log == 'bpic15':
         df = pd.read_csv(fn)[[
-            'Case ID', 'Activity', 'Resource', 'Complete Timestamp',
-            'case:last_phase', 'case:parts', 'action_code', 'municipality'
+            'case:concept:name', 'activityNameEN', 'org:resource', 'time:timestamp',
+            'case:last_phase', 'case:parts', 'action_code', 'r:municipality'
         ]]
         df = df.rename(columns={
             # Resource-related
             'municipality': 'r:municipality',
+            'case:concept:name' : 'case_ID',
+            'time:timestamp': 'Complete Timestamp',
             # CT-related
             'case:last_phase': 'ct:last_phase', 
             # AT-related
