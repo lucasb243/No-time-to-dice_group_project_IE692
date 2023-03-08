@@ -19,8 +19,10 @@ if preprocess:
         df = df.rename(columns={
             # Resource-related
             'municipality': 'r:municipality',
-            'case:concept:name' : 'case_ID',
-            'time:timestamp': 'Complete Timestamp',
+            'case:concept:name' : 'Case ID',
+            'time:timestamp': 'Complete timestamp',
+            "org:resource": "resource",
+            "activityNameEN": "activity label",
             # CT-related
             'case:last_phase': 'ct:last_phase', 
             # AT-related
