@@ -8,7 +8,7 @@ import numpy as np
 import pandas as pd
 
 from ordinor.io import read_disco_csv
-from ordinor.execution_context import FullMiner
+from ordinor.execution_context import ODTMiner
 
 # input log
 fn_log = sys.argv[1]
@@ -30,5 +30,5 @@ spec = {
 
 # run algorithm
 
-miner = FullMiner(el, case_attr_name="activityNameEN", resolution="org:resource")
+miner = ODTMiner(el, spec, max_height=12, trace_history=True)
 

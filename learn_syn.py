@@ -12,9 +12,9 @@ from ordinor import constants as const
 from ordinor.execution_context import ODTMiner
 
 # input log
-fn_log = sys.argv[1]
+#fn_log = sys.argv[1]
 
-el = read_csv(fn_log)
+el = pd.read_csv("data/processed/bpic15.csv")
 print('|R| =\t{}'.format(el[const.RESOURCE].nunique()))
 
 print(el)
