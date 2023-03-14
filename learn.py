@@ -3,12 +3,15 @@
 
 import sys
 from copy import deepcopy
+sys.path.insert(1,"OrdinoR-dev-learn-exec/ordinor/execution_context/rule_based/") 
+import decision_tree
+import file            
 
 import numpy as np
 import pandas as pd
 
 from ordinor.io import read_disco_csv
-from ordinor.execution_context import ODTMiner
+from ordinor.execution_context.rule_based import ODTMiner
 
 # input log
 fn_log = sys.argv[1]
