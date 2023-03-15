@@ -17,6 +17,13 @@ from ordinor.execution_context.rule_based import ODTMiner
 el = pd.read_csv("bpic15_amended_typed.csv")
 
 # specification
+df = el.rename(columns={
+            # Resource-related
+            'Case ID' : 'case:concept:name',
+            'Complete Timestamp': 'time:timestamp',
+            "Resource": "org:resource",
+            "Activity": "concept:name",
+        })
 
 spec = {
     'type_def_attrs': {
@@ -30,5 +37,5 @@ spec = {
 
 # run algorithm
 
-miner = ODTMiner(el, spec, max_height=12, trace_history=True)
+miner = ODTMiner(df, spec, max_height=12, trace_history=True)
 
