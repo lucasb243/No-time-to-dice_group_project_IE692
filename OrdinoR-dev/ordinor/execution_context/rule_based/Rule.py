@@ -33,8 +33,8 @@ class Rule(object):
         else:
             return ' \u2227 '.join(
                 f'({ar})' for ar in 
-                sorted(self.ars, key=lambda _ar: _ar.attr)
-                if not ar.is_null
+                sorted(self.ars, key=lambda _ar: _ar.attr or "")
+                #if not ar.is_null
             )
     
     def get_attrs(self) -> set:
