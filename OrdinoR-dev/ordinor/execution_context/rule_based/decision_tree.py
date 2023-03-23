@@ -17,6 +17,8 @@ from .rule_generators import NumericRuleGenerator, CategoricalRuleGenerator
 from .Rule import Rule
 from .AtomicRule import AtomicRule
 
+import time
+
 class ODTMiner(BaseMiner):
     def __init__(self, el, attr_spec, max_height=-1, use_ohe=False, trace_history=False):
         self._init_miner(el, attr_spec, max_height, use_ohe, trace_history)
@@ -437,6 +439,7 @@ class ODTMiner(BaseMiner):
 
         # iterative tree induction
         print(f'Start to fit decision tree with max. height = {self.max_height}')
+        start_time = time.time()
         while True:
             if self._height == self.max_height:
                 # exit search
@@ -457,7 +460,7 @@ class ODTMiner(BaseMiner):
                 # remove used attribute to update candidate attribute pool
                 if attr_type == 'boolean':
                     del self.cand_attr_pool[attr]
-
+            elapsed_time = round(time.time() - start_time,1)
             if self._decide_stopping(target):
                 print('Target value ({:.6f}) meets the set criterion.'.format(
                     target
@@ -465,7 +468,7 @@ class ODTMiner(BaseMiner):
                 # exit search
                 break
             else:
-                print(f"Tree grows by splitting all current leaf nodes on `{attr}`")
+                print(f"Tree grows by splitting all current leaf nodes on `{attr}`, step = {self._height+1} (running for {int(elapsed_time//3600)} hours, {int(elapsed_time%3600//60)} minutes and {elapsed_time%60:0>4.1f} seconds)")
 
                 # clear existing split tracker
                 # this needs to be reconstructed based on the new leaves
