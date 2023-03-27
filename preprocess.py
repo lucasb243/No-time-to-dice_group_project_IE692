@@ -4,19 +4,23 @@ log = 'bpic15'
 
 preprocess = True
 
+#abragen, ob schon fertig preprocessed
 if preprocess:
     fn = f'data/raw/{log}.csv'
 else:
     fn = f'data/processed/{log}.csv'
 
+#für versch. Logs unterschiedliches Preprocessing
 if preprocess:
          
     if log == 'bpic15':
-        #liest nicht alle Spalten ein, nur die die er braucht
+        #liest nicht alle Spalten ein, nur die die gebraucht
         df = pd.read_csv(fn)[[
             'case:concept:name', 'activityNameEN', 'org:resource', 'time:timestamp',
             'case:last_phase', 'case:parts', 'action_code', 'r:municipality'
         ]]
+        
+        #umbenennen der Spalten
         df = df.rename(columns={
             # Resource-related
             'municipality': 'r:municipality',
