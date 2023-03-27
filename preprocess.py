@@ -12,6 +12,7 @@ else:
 if preprocess:
          
     if log == 'bpic15':
+        #liest nicht alle Spalten ein, nur die die er braucht
         df = pd.read_csv(fn)[[
             'case:concept:name', 'activityNameEN', 'org:resource', 'time:timestamp',
             'case:last_phase', 'case:parts', 'action_code', 'r:municipality'
@@ -32,6 +33,7 @@ if preprocess:
         })
         # TODO: derive 'ct:permit_type', 'at:phase'
         df = df[~df['case_parts'].isna()]
+        #bennent um nach Bau und Nicht-Bau
         df['ct:permit_type'] = df.apply(lambda row: 'Bouw' if 'Bouw' in str(row['case_parts']).split(',') else 'Non Bouw', axis=1)
 
         # only look at the main subprocess: "01_HOOFD"
