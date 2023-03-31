@@ -70,7 +70,7 @@ class AtomicRule(object):
     
     def __repr__(self) -> str:
         if self.is_null:
-            return '\u22a5 (null)'
+            return 'T(NULL)'
         elif self.attr_type == 'categorical':
             # categorical: show sorted set elements 
             return f'`{self.attr}` \u2208 ' + '{' + str(sorted(self.attr_vals))[1:-1] + '}'
