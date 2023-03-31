@@ -73,10 +73,10 @@ class AtomicRule(object):
             return 'T(NULL)'
         elif self.attr_type == 'categorical':
             # categorical: show sorted set elements 
-            return f'`{self.attr}` \u2208 ' + '{' + str(sorted(self.attr_vals))[1:-1] + '}'
+            return f'`{self.attr}` ELEMENT OF ' + '{' + str(sorted(self.attr_vals))[1:-1] + '}'
         elif self.attr_type == 'numeric':
             # numeric: show intervals
-            return f'`{self.attr}` \u2208 {self.attr_vals}'
+            return f'`{self.attr}` ELEMENT OF {self.attr_vals}'
         else:
             # boolean: show formula directly
             return f'`{self.attr}` == {self.attr_vals}'

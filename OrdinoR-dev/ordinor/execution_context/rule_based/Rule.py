@@ -31,7 +31,7 @@ class Rule(object):
         if self.is_null:
             return str(AtomicRule(attr=None))
         else:
-            return ' \u2227 '.join(
+            return ' AND '.join(
                 f'({ar})' for ar in 
                 sorted(self.ars, key=lambda _ar: _ar.attr or "")
                 #if not ar.is_null
