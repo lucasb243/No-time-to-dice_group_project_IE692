@@ -16,11 +16,14 @@ if preprocess:
             'case:concept:name', 'activityNameEN', 'org:resource', 'time:timestamp',
             'case:last_phase', 'case:parts', 'action_code', 'r:municipality'
         ]]
+        
+        df = df[df['case:concept:name'] != 4020737]
+        
         df = df.rename(columns={
             # Resource-related
             'municipality': 'r:municipality',
             'case:concept:name' : 'Case ID',
-            'time:timestamp': 'Complete timestamp',
+            'time:timestamp': 'Complete Timestamp',
             "org:resource": "resource",
             "activityNameEN": "activity label",
             # CT-related
@@ -30,6 +33,7 @@ if preprocess:
         df = df.rename(columns={
             'case:parts': 'case_parts'
         })
+        
         # TODO: derive 'ct:permit_type', 'at:phase'
         df = df[~df['case_parts'].isna()]
         df['ct:permit_type'] = df.apply(lambda row: 'Bouw' if 'Bouw' in str(row['case_parts']).split(',') else 'Non Bouw', axis=1)
