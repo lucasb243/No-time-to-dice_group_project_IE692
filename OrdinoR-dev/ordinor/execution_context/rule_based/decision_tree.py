@@ -468,7 +468,8 @@ class ODTMiner(BaseMiner):
                 # exit search
                 break
             else:
-                print(f"Tree grows by splitting all current leaf nodes on `{attr}`, step = {self._height+1} (running for {int(elapsed_time//3600)} hours, {int(elapsed_time%3600//60)} minutes and {elapsed_time%60:0>4.1f} seconds)")
+                print(
+                    f"Tree grows by splitting all current leaf nodes on `{attr}`, step={self._height+1} (running for {int(elapsed_time//3600):02d}:{int((elapsed_time % 3600)//60):02d}:{int(elapsed_time % 60):02d}s)")
 
                 # clear existing split tracker
                 # this needs to be reconstructed based on the new leaves
