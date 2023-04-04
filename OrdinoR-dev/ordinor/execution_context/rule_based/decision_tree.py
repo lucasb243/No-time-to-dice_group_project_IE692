@@ -564,7 +564,9 @@ class ODTMiner(BaseMiner):
                     'target': self.val_target,
                     'score': self._func_solution_score(),
 
-                    'solution': deepcopy(self._leaves)
+                    'solution': deepcopy(self._leaves),
+                    'attr_splits': deepcopy(self._attr_splits)
+
                 })
 
                 # update tree height
