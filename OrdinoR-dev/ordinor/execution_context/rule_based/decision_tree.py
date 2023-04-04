@@ -70,6 +70,8 @@ class ODTMiner(BaseMiner):
 
         # Set tracing option
         self.trace_history = trace_history
+        if self.trace_history:
+            self.l_history_persistent = None
 
         # Init matrices to represent states and to score:
         # Event-Resource (constant)
@@ -468,7 +470,8 @@ class ODTMiner(BaseMiner):
                 # exit search
                 break
             else:
-                print(f"Tree grows by splitting all current leaf nodes on `{attr}`, step = {self._height+1} (running for {int(elapsed_time//3600)} hours, {int(elapsed_time%3600//60)} minutes and {elapsed_time%60:0>4.1f} seconds)")
+                print(
+                    f"Tree grows by splitting all current leaf nodes on `{attr}`, step={self._height+1} (running for {int(elapsed_time//3600):02d}:{int((elapsed_time % 3600)//60):02d}:{int(elapsed_time % 60):02d}s)")
 
                 # clear existing split tracker
                 # this needs to be reconstructed based on the new leaves
@@ -592,6 +595,8 @@ class ODTMiner(BaseMiner):
 
         # output history, if demanded
         if self.trace_history:
+            # save history to miner
+            self.l_history_persistent = l_history
             ts_now = pd.Timestamp.now()
             fname_prefix = 'ODTMiner_{}_'.format(
                 ts_now.strftime('%Y%m%d-%H%M%S')
