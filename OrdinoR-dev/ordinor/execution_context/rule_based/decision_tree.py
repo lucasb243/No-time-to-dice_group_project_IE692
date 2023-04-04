@@ -70,6 +70,8 @@ class ODTMiner(BaseMiner):
 
         # Set tracing option
         self.trace_history = trace_history
+        if self.trace_history:
+            self.l_history_persistent = None
 
         # Init matrices to represent states and to score:
         # Event-Resource (constant)
@@ -593,6 +595,8 @@ class ODTMiner(BaseMiner):
 
         # output history, if demanded
         if self.trace_history:
+            # save history to miner
+            self.l_history_persistent = l_history
             ts_now = pd.Timestamp.now()
             fname_prefix = 'ODTMiner_{}_'.format(
                 ts_now.strftime('%Y%m%d-%H%M%S')
