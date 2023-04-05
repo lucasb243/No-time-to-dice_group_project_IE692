@@ -57,13 +57,13 @@ class TreePrinter():
         #self.vertical = vertical
 
         # add first element to treeHistory
-        root_el = {
-            'dispersal': 0.,
-            'impurity': 1.,
-            'target': 0.,
-            'score': 1.
-        }
-        self.treeHistory.insert(0, root_el)
+        #root_el = {
+        #    'dispersal': 0.,
+        #    'impurity': 1.,
+        #    'target': 0.,
+        #    'score': 1.
+        #}
+        #self.treeHistory.insert(0, root_el)
 
         # for vertical tree
         self.width = self.sizeDataBox + (2*self.node_margin_x + self.node_width) * self.width
@@ -141,10 +141,10 @@ class TreePrinter():
 
             y_center = i*(self.node_height+2*self.node_margin_y)+self.node_margin_y+self.node_height/2
 
-            r1 = f'<text dominant-baseline = "central" font-size="{self.node_font_size} style = "fill: rgb(0,0,255); " >'
-            r2 = f'<tspan x = "0" y = "{y_center-12}"> dis={dis:.1f}\n </tspan>'
-            r3 = f'<tspan x = "0" y = "{y_center}" > imp={imp:.1f}\n </tspan>'
-            r4 = f'<tspan x = "0" y = "{y_center+12}"> score={score:.1f}\n </tspan>'
+            r1 = f'<text dominant-baseline = "central" font-size="{self.node_font_size}" style = "fill: rgb(0,0,255); " >'
+            r2 = f'<tspan x = "0" y = "{y_center-12}"> dis={dis:.5f}\n </tspan>'
+            r3 = f'<tspan x = "0" y = "{y_center}" > imp={imp:.5f}\n </tspan>'
+            r4 = f'<tspan x = "0" y = "{y_center+12}"> score={score:.5f}\n </tspan>'
             r5 = f'</text>'
 
 
