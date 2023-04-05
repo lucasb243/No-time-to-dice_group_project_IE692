@@ -43,15 +43,27 @@ class TreePrinter():
     node_margin_x = 20
     node_margin_y = 10
     node_font_size = 10
-    sizeDataBox = 50
+    sizeDataBox = 100
+    
 
-    def __init__(self, root, last_level):
+
+    def __init__(self, root, last_level, treeHistory):
         self.root = root
         self._steps_taken_on_last_level = 0
         self.svg_representation = ""
         self.last_level = last_level
         self.width = root.getWidth(self.last_level)
+        self.treeHistory = treeHistory
         #self.vertical = vertical
+
+        # add first element to treeHistory
+        root_el = {
+            'dispersal': 0.,
+            'impurity': 1.,
+            'target': 0.,
+            'score': 1.
+        }
+        self.treeHistory.insert(0, root_el)
 
         # for vertical tree
         self.width = self.sizeDataBox + (2*self.node_margin_x + self.node_width) * self.width
@@ -63,6 +75,7 @@ class TreePrinter():
         self.svg_representation = ""
         self._assignPos(self.root)
         self._getStartSVG()
+        self._addMetrics()
         self._drawLines(self.root)
         self._drawNodes(self.root)
         self._getEndSVG()
@@ -70,7 +83,6 @@ class TreePrinter():
         # save svg
         with open("tree.svg", "w") as f:
             f.write(self.svg_representation)
-    # TODO: warum hat node 339 keine children? -> wsl nodes sich selber als parent nicht funktioniert
     # assign positions to nodes
     def _assignPos(self, node):
         if node.step == self.last_level:
@@ -119,3 +131,22 @@ class TreePrinter():
             for child in node.children:
                 self._drawLines(child)
         self.svg_representation += node.getLine_svg(self.node_height, self.node_width,self.node_margin_x, self.node_margin_y, self.node_font_size, self.sizeDataBox)
+    
+    # add metrics
+    def _addMetrics(self):
+        for i, val in enumerate(self.treeHistory):
+            dis = val['dispersal']
+            imp = val['impurity']
+            score = val['score']
+
+            y_center = i*(self.node_height+2*self.node_margin_y)+self.node_margin_y+self.node_height/2
+
+            r1 = f'<text dominant-baseline = "central" font-size="{self.node_font_size} style = "fill: rgb(0,0,255); " >'
+            r2 = f'<tspan x = "0" y = "{y_center-12}"> dis={dis:.1f}\n </tspan>'
+            r3 = f'<tspan x = "0" y = "{y_center}" > imp={imp:.1f}\n </tspan>'
+            r4 = f'<tspan x = "0" y = "{y_center+12}"> score={score:.1f}\n </tspan>'
+            r5 = f'</text>'
+
+
+
+            self.svg_representation += r1+r2+r3+r4+r5
