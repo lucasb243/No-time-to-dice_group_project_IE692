@@ -449,6 +449,7 @@ class ODTMiner(BaseMiner):
 
             # find the next best split
             ret = self._find_attr_split()
+            
             if ret is None:
                 print('No further split can be performed.')
                 # exit search
@@ -565,7 +566,8 @@ class ODTMiner(BaseMiner):
                     'score': self._func_solution_score(),
 
                     'solution': deepcopy(self._leaves),
-                    'attr_splits': deepcopy(self._attr_splits)
+                    #'attr_splits': deepcopy(self._attr_splits),
+                    'ret': deepcopy(ret)
 
                 })
 
