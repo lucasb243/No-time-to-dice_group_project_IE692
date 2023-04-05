@@ -23,7 +23,7 @@ class Node:
 
         # TODO: tree structures
         # pointer to parent node
-        #self.parent_label = parent_label
+        self.parent_label = parent_label
         # TODO: child nodes
         #self.children = list()
 
