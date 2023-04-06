@@ -602,7 +602,7 @@ class ODTMiner(BaseMiner):
             # save history to miner
             self.l_history_persistent = l_history
             ts_now = pd.Timestamp.now()
-            fname_prefix = 'ODTMiner_{}_'.format(
+            fname_prefix = './results/ODTMiner_{}_'.format(
                 ts_now.strftime('%Y%m%d-%H%M%S')
             )
             # print history (stats and solutions), indexed by step number
