@@ -1,6 +1,6 @@
 import pandas as pd
 # Load raw data & Preprocess DataFrame (enrich with derived attributes)
-log = 'bpic15'
+log = 'bpic15_time_manipulated'
 
 preprocess = True
 
@@ -11,7 +11,7 @@ else:
 
 if preprocess:
          
-    if log == 'bpic15':
+    if log == 'bpic15' or log == 'bpic15_time_manipulated':
         df = pd.read_csv(fn)[[
             'case:concept:name', 'activityNameEN', 'org:resource', 'time:timestamp',
             'case:last_phase', 'case:parts', 'action_code', 'r:municipality'
