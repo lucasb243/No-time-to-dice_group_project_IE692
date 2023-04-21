@@ -108,9 +108,7 @@ class TreePrinter():
     sizeDataBox = 100
 
     
-
-
-    def __init__(self, root, last_level, treeHistory):
+    def __init__(self, root, last_level, treeHistory, outputName):
         self.root = root
         self._steps_taken_on_last_level = 0
         self.svg_representation = ""
@@ -118,6 +116,7 @@ class TreePrinter():
         self.width = root.getWidth(self.last_level)
         self.treeHistory = treeHistory
         #self.vertical = vertical
+        self.outputName = outputName
 
         # add first element to treeHistory
         root_el = {
@@ -145,7 +144,7 @@ class TreePrinter():
         self._getEndSVG()
 
         # save svg
-        with open("tree.svg", "w") as f:
+        with open(f"{self.outputName}.svg", "w") as f:
             f.write(self.svg_representation)
 
     # assign positions to nodes
