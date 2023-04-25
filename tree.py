@@ -112,7 +112,7 @@ class TreePrinter():
         self.root = root
         self._steps_taken_on_last_level = 0
         self.svg_representation = ""
-        self.last_level = min(last_level, len(treeHistory)-1)
+        self.last_level = min(last_level, len(treeHistory))
         self.width = root.getWidth(self.last_level)
         self.treeHistory = treeHistory
         #self.vertical = vertical
@@ -199,6 +199,8 @@ class TreePrinter():
     # add metrics
     def _addMetrics(self):
         for i, val in enumerate(self.treeHistory):
+            if i == self.last_level:
+                break
             dis = val['dispersal']
             imp = val['impurity']
             score = val['score']
