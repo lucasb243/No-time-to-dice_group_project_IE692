@@ -1,0 +1,1128 @@
+
+===============================================================================
+Step	[1]
+
+-------------------------------------------------------------------------------
+Node [339]: (CT=0, AT=0, TT=133), containing 149 events.
+	CT=[0]T(NULL)
+	AT=[0]T(NULL)
+	TT=[133](`tt:weekday` ELEMENT OF {'Sun'})
+-------------------------------------------------------------------------------
+Node [340]: (CT=0, AT=0, TT=134), containing 193304 events.
+	CT=[0]T(NULL)
+	AT=[0]T(NULL)
+	TT=[134](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Sat', 'Thu', 'Tue', 'Wed'})
+
+===============================================================================
+Step	[2]
+
+-------------------------------------------------------------------------------
+Node [339]: (CT=0, AT=0, TT=133), containing 149 events.
+	CT=[0]T(NULL)
+	AT=[0]T(NULL)
+	TT=[133](`tt:weekday` ELEMENT OF {'Sun'})
+-------------------------------------------------------------------------------
+Node [796]: (CT=0, AT=0, TT=205), containing 880 events.
+	CT=[0]T(NULL)
+	AT=[0]T(NULL)
+	TT=[205](`tt:weekday` ELEMENT OF {'Sat'})
+-------------------------------------------------------------------------------
+Node [797]: (CT=0, AT=0, TT=206), containing 192424 events.
+	CT=[0]T(NULL)
+	AT=[0]T(NULL)
+	TT=[206](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Thu', 'Tue', 'Wed'})
+
+===============================================================================
+Step	[3]
+
+-------------------------------------------------------------------------------
+Node [1427]: (CT=0, AT=1157, TT=133), containing 149 events.
+	CT=[0]T(NULL)
+	AT=[1157](`at:phase` ELEMENT OF {'01_HOOFD_0', '01_HOOFD_1', '01_HOOFD_2', '01_HOOFD_3', '01_HOOFD_4', '01_HOOFD_5', '01_HOOFD_8'})
+	TT=[133](`tt:weekday` ELEMENT OF {'Sun'})
+-------------------------------------------------------------------------------
+Node [1428]: (CT=0, AT=1158, TT=205), containing 2 events.
+	CT=[0]T(NULL)
+	AT=[1158](`at:phase` ELEMENT OF {'01_HOOFD_6', '01_HOOFD_7'})
+	TT=[205](`tt:weekday` ELEMENT OF {'Sat'})
+-------------------------------------------------------------------------------
+Node [1429]: (CT=0, AT=1157, TT=205), containing 878 events.
+	CT=[0]T(NULL)
+	AT=[1157](`at:phase` ELEMENT OF {'01_HOOFD_0', '01_HOOFD_1', '01_HOOFD_2', '01_HOOFD_3', '01_HOOFD_4', '01_HOOFD_5', '01_HOOFD_8'})
+	TT=[205](`tt:weekday` ELEMENT OF {'Sat'})
+-------------------------------------------------------------------------------
+Node [1430]: (CT=0, AT=1158, TT=206), containing 600 events.
+	CT=[0]T(NULL)
+	AT=[1158](`at:phase` ELEMENT OF {'01_HOOFD_6', '01_HOOFD_7'})
+	TT=[206](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [1431]: (CT=0, AT=1157, TT=206), containing 191824 events.
+	CT=[0]T(NULL)
+	AT=[1157](`at:phase` ELEMENT OF {'01_HOOFD_0', '01_HOOFD_1', '01_HOOFD_2', '01_HOOFD_3', '01_HOOFD_4', '01_HOOFD_5', '01_HOOFD_8'})
+	TT=[206](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Thu', 'Tue', 'Wed'})
+
+===============================================================================
+Step	[4]
+
+-------------------------------------------------------------------------------
+Node [1427]: (CT=0, AT=1157, TT=133), containing 149 events.
+	CT=[0]T(NULL)
+	AT=[1157](`at:phase` ELEMENT OF {'01_HOOFD_0', '01_HOOFD_1', '01_HOOFD_2', '01_HOOFD_3', '01_HOOFD_4', '01_HOOFD_5', '01_HOOFD_8'})
+	TT=[133](`tt:weekday` ELEMENT OF {'Sun'})
+-------------------------------------------------------------------------------
+Node [1902]: (CT=0, AT=1536, TT=205), containing 2 events.
+	CT=[0]T(NULL)
+	AT=[1536](`at:phase` ELEMENT OF {'01_HOOFD_7'})
+	TT=[205](`tt:weekday` ELEMENT OF {'Sat'})
+-------------------------------------------------------------------------------
+Node [1429]: (CT=0, AT=1157, TT=205), containing 878 events.
+	CT=[0]T(NULL)
+	AT=[1157](`at:phase` ELEMENT OF {'01_HOOFD_0', '01_HOOFD_1', '01_HOOFD_2', '01_HOOFD_3', '01_HOOFD_4', '01_HOOFD_5', '01_HOOFD_8'})
+	TT=[205](`tt:weekday` ELEMENT OF {'Sat'})
+-------------------------------------------------------------------------------
+Node [1903]: (CT=0, AT=1536, TT=206), containing 585 events.
+	CT=[0]T(NULL)
+	AT=[1536](`at:phase` ELEMENT OF {'01_HOOFD_7'})
+	TT=[206](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [1904]: (CT=0, AT=1538, TT=206), containing 15 events.
+	CT=[0]T(NULL)
+	AT=[1538](`at:phase` ELEMENT OF {'01_HOOFD_6'})
+	TT=[206](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [1431]: (CT=0, AT=1157, TT=206), containing 191824 events.
+	CT=[0]T(NULL)
+	AT=[1157](`at:phase` ELEMENT OF {'01_HOOFD_0', '01_HOOFD_1', '01_HOOFD_2', '01_HOOFD_3', '01_HOOFD_4', '01_HOOFD_5', '01_HOOFD_8'})
+	TT=[206](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Thu', 'Tue', 'Wed'})
+
+===============================================================================
+Step	[5]
+
+-------------------------------------------------------------------------------
+Node [2407]: (CT=0, AT=1907, TT=133), containing 149 events.
+	CT=[0]T(NULL)
+	AT=[1907](`at:phase` ELEMENT OF {'01_HOOFD_0', '01_HOOFD_1', '01_HOOFD_2', '01_HOOFD_3', '01_HOOFD_4', '01_HOOFD_5'})
+	TT=[133](`tt:weekday` ELEMENT OF {'Sun'})
+-------------------------------------------------------------------------------
+Node [2408]: (CT=0, AT=1908, TT=205), containing 10 events.
+	CT=[0]T(NULL)
+	AT=[1908](`at:phase` ELEMENT OF {'01_HOOFD_8'})
+	TT=[205](`tt:weekday` ELEMENT OF {'Sat'})
+-------------------------------------------------------------------------------
+Node [2409]: (CT=0, AT=1907, TT=205), containing 868 events.
+	CT=[0]T(NULL)
+	AT=[1907](`at:phase` ELEMENT OF {'01_HOOFD_0', '01_HOOFD_1', '01_HOOFD_2', '01_HOOFD_3', '01_HOOFD_4', '01_HOOFD_5'})
+	TT=[205](`tt:weekday` ELEMENT OF {'Sat'})
+-------------------------------------------------------------------------------
+Node [2410]: (CT=0, AT=1908, TT=206), containing 6871 events.
+	CT=[0]T(NULL)
+	AT=[1908](`at:phase` ELEMENT OF {'01_HOOFD_8'})
+	TT=[206](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [2411]: (CT=0, AT=1907, TT=206), containing 184953 events.
+	CT=[0]T(NULL)
+	AT=[1907](`at:phase` ELEMENT OF {'01_HOOFD_0', '01_HOOFD_1', '01_HOOFD_2', '01_HOOFD_3', '01_HOOFD_4', '01_HOOFD_5'})
+	TT=[206](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [1902]: (CT=0, AT=1536, TT=205), containing 2 events.
+	CT=[0]T(NULL)
+	AT=[1536](`at:phase` ELEMENT OF {'01_HOOFD_7'})
+	TT=[205](`tt:weekday` ELEMENT OF {'Sat'})
+-------------------------------------------------------------------------------
+Node [1903]: (CT=0, AT=1536, TT=206), containing 585 events.
+	CT=[0]T(NULL)
+	AT=[1536](`at:phase` ELEMENT OF {'01_HOOFD_7'})
+	TT=[206](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [1904]: (CT=0, AT=1538, TT=206), containing 15 events.
+	CT=[0]T(NULL)
+	AT=[1538](`at:phase` ELEMENT OF {'01_HOOFD_6'})
+	TT=[206](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Thu', 'Tue', 'Wed'})
+
+===============================================================================
+Step	[6]
+
+-------------------------------------------------------------------------------
+Node [1902]: (CT=0, AT=1536, TT=205), containing 2 events.
+	CT=[0]T(NULL)
+	AT=[1536](`at:phase` ELEMENT OF {'01_HOOFD_7'})
+	TT=[205](`tt:weekday` ELEMENT OF {'Sat'})
+-------------------------------------------------------------------------------
+Node [1903]: (CT=0, AT=1536, TT=206), containing 585 events.
+	CT=[0]T(NULL)
+	AT=[1536](`at:phase` ELEMENT OF {'01_HOOFD_7'})
+	TT=[206](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [1904]: (CT=0, AT=1538, TT=206), containing 15 events.
+	CT=[0]T(NULL)
+	AT=[1538](`at:phase` ELEMENT OF {'01_HOOFD_6'})
+	TT=[206](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [2776]: (CT=0, AT=2096, TT=133), containing 149 events.
+	CT=[0]T(NULL)
+	AT=[2096](`at:phase` ELEMENT OF {'01_HOOFD_0', '01_HOOFD_1', '01_HOOFD_3', '01_HOOFD_4', '01_HOOFD_5'})
+	TT=[133](`tt:weekday` ELEMENT OF {'Sun'})
+-------------------------------------------------------------------------------
+Node [2408]: (CT=0, AT=1908, TT=205), containing 10 events.
+	CT=[0]T(NULL)
+	AT=[1908](`at:phase` ELEMENT OF {'01_HOOFD_8'})
+	TT=[205](`tt:weekday` ELEMENT OF {'Sat'})
+-------------------------------------------------------------------------------
+Node [2777]: (CT=0, AT=2097, TT=205), containing 41 events.
+	CT=[0]T(NULL)
+	AT=[2097](`at:phase` ELEMENT OF {'01_HOOFD_2'})
+	TT=[205](`tt:weekday` ELEMENT OF {'Sat'})
+-------------------------------------------------------------------------------
+Node [2778]: (CT=0, AT=2096, TT=205), containing 827 events.
+	CT=[0]T(NULL)
+	AT=[2096](`at:phase` ELEMENT OF {'01_HOOFD_0', '01_HOOFD_1', '01_HOOFD_3', '01_HOOFD_4', '01_HOOFD_5'})
+	TT=[205](`tt:weekday` ELEMENT OF {'Sat'})
+-------------------------------------------------------------------------------
+Node [2410]: (CT=0, AT=1908, TT=206), containing 6871 events.
+	CT=[0]T(NULL)
+	AT=[1908](`at:phase` ELEMENT OF {'01_HOOFD_8'})
+	TT=[206](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [2779]: (CT=0, AT=2097, TT=206), containing 16451 events.
+	CT=[0]T(NULL)
+	AT=[2097](`at:phase` ELEMENT OF {'01_HOOFD_2'})
+	TT=[206](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [2780]: (CT=0, AT=2096, TT=206), containing 168502 events.
+	CT=[0]T(NULL)
+	AT=[2096](`at:phase` ELEMENT OF {'01_HOOFD_0', '01_HOOFD_1', '01_HOOFD_3', '01_HOOFD_4', '01_HOOFD_5'})
+	TT=[206](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Thu', 'Tue', 'Wed'})
+
+===============================================================================
+Step	[7]
+
+-------------------------------------------------------------------------------
+Node [1902]: (CT=0, AT=1536, TT=205), containing 2 events.
+	CT=[0]T(NULL)
+	AT=[1536](`at:phase` ELEMENT OF {'01_HOOFD_7'})
+	TT=[205](`tt:weekday` ELEMENT OF {'Sat'})
+-------------------------------------------------------------------------------
+Node [1903]: (CT=0, AT=1536, TT=206), containing 585 events.
+	CT=[0]T(NULL)
+	AT=[1536](`at:phase` ELEMENT OF {'01_HOOFD_7'})
+	TT=[206](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [1904]: (CT=0, AT=1538, TT=206), containing 15 events.
+	CT=[0]T(NULL)
+	AT=[1538](`at:phase` ELEMENT OF {'01_HOOFD_6'})
+	TT=[206](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [2408]: (CT=0, AT=1908, TT=205), containing 10 events.
+	CT=[0]T(NULL)
+	AT=[1908](`at:phase` ELEMENT OF {'01_HOOFD_8'})
+	TT=[205](`tt:weekday` ELEMENT OF {'Sat'})
+-------------------------------------------------------------------------------
+Node [2410]: (CT=0, AT=1908, TT=206), containing 6871 events.
+	CT=[0]T(NULL)
+	AT=[1908](`at:phase` ELEMENT OF {'01_HOOFD_8'})
+	TT=[206](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [3099]: (CT=0, AT=2193, TT=133), containing 149 events.
+	CT=[0]T(NULL)
+	AT=[2193](`at:phase` ELEMENT OF {'01_HOOFD_0', '01_HOOFD_1', '01_HOOFD_4', '01_HOOFD_5'})
+	TT=[133](`tt:weekday` ELEMENT OF {'Sun'})
+-------------------------------------------------------------------------------
+Node [2777]: (CT=0, AT=2097, TT=205), containing 41 events.
+	CT=[0]T(NULL)
+	AT=[2097](`at:phase` ELEMENT OF {'01_HOOFD_2'})
+	TT=[205](`tt:weekday` ELEMENT OF {'Sat'})
+-------------------------------------------------------------------------------
+Node [3100]: (CT=0, AT=2194, TT=205), containing 49 events.
+	CT=[0]T(NULL)
+	AT=[2194](`at:phase` ELEMENT OF {'01_HOOFD_3'})
+	TT=[205](`tt:weekday` ELEMENT OF {'Sat'})
+-------------------------------------------------------------------------------
+Node [3101]: (CT=0, AT=2193, TT=205), containing 778 events.
+	CT=[0]T(NULL)
+	AT=[2193](`at:phase` ELEMENT OF {'01_HOOFD_0', '01_HOOFD_1', '01_HOOFD_4', '01_HOOFD_5'})
+	TT=[205](`tt:weekday` ELEMENT OF {'Sat'})
+-------------------------------------------------------------------------------
+Node [2779]: (CT=0, AT=2097, TT=206), containing 16451 events.
+	CT=[0]T(NULL)
+	AT=[2097](`at:phase` ELEMENT OF {'01_HOOFD_2'})
+	TT=[206](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [3102]: (CT=0, AT=2194, TT=206), containing 17836 events.
+	CT=[0]T(NULL)
+	AT=[2194](`at:phase` ELEMENT OF {'01_HOOFD_3'})
+	TT=[206](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [3103]: (CT=0, AT=2193, TT=206), containing 150666 events.
+	CT=[0]T(NULL)
+	AT=[2193](`at:phase` ELEMENT OF {'01_HOOFD_0', '01_HOOFD_1', '01_HOOFD_4', '01_HOOFD_5'})
+	TT=[206](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Thu', 'Tue', 'Wed'})
+
+===============================================================================
+Step	[8]
+
+-------------------------------------------------------------------------------
+Node [3423]: (CT=171, AT=1536, TT=205), containing 2 events.
+	CT=[171](`ct:permit_type` ELEMENT OF {'Bouw'})
+	AT=[1536](`at:phase` ELEMENT OF {'01_HOOFD_7'})
+	TT=[205](`tt:weekday` ELEMENT OF {'Sat'})
+-------------------------------------------------------------------------------
+Node [3424]: (CT=172, AT=1536, TT=206), containing 242 events.
+	CT=[172](`ct:permit_type` ELEMENT OF {'Non Bouw'})
+	AT=[1536](`at:phase` ELEMENT OF {'01_HOOFD_7'})
+	TT=[206](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [3425]: (CT=171, AT=1536, TT=206), containing 343 events.
+	CT=[171](`ct:permit_type` ELEMENT OF {'Bouw'})
+	AT=[1536](`at:phase` ELEMENT OF {'01_HOOFD_7'})
+	TT=[206](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [3426]: (CT=171, AT=1538, TT=206), containing 15 events.
+	CT=[171](`ct:permit_type` ELEMENT OF {'Bouw'})
+	AT=[1538](`at:phase` ELEMENT OF {'01_HOOFD_6'})
+	TT=[206](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [3427]: (CT=172, AT=1908, TT=205), containing 1 events.
+	CT=[172](`ct:permit_type` ELEMENT OF {'Non Bouw'})
+	AT=[1908](`at:phase` ELEMENT OF {'01_HOOFD_8'})
+	TT=[205](`tt:weekday` ELEMENT OF {'Sat'})
+-------------------------------------------------------------------------------
+Node [3428]: (CT=171, AT=1908, TT=205), containing 9 events.
+	CT=[171](`ct:permit_type` ELEMENT OF {'Bouw'})
+	AT=[1908](`at:phase` ELEMENT OF {'01_HOOFD_8'})
+	TT=[205](`tt:weekday` ELEMENT OF {'Sat'})
+-------------------------------------------------------------------------------
+Node [3429]: (CT=172, AT=1908, TT=206), containing 2492 events.
+	CT=[172](`ct:permit_type` ELEMENT OF {'Non Bouw'})
+	AT=[1908](`at:phase` ELEMENT OF {'01_HOOFD_8'})
+	TT=[206](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [3430]: (CT=171, AT=1908, TT=206), containing 4379 events.
+	CT=[171](`ct:permit_type` ELEMENT OF {'Bouw'})
+	AT=[1908](`at:phase` ELEMENT OF {'01_HOOFD_8'})
+	TT=[206](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [3431]: (CT=172, AT=2097, TT=205), containing 15 events.
+	CT=[172](`ct:permit_type` ELEMENT OF {'Non Bouw'})
+	AT=[2097](`at:phase` ELEMENT OF {'01_HOOFD_2'})
+	TT=[205](`tt:weekday` ELEMENT OF {'Sat'})
+-------------------------------------------------------------------------------
+Node [3432]: (CT=171, AT=2097, TT=205), containing 26 events.
+	CT=[171](`ct:permit_type` ELEMENT OF {'Bouw'})
+	AT=[2097](`at:phase` ELEMENT OF {'01_HOOFD_2'})
+	TT=[205](`tt:weekday` ELEMENT OF {'Sat'})
+-------------------------------------------------------------------------------
+Node [3433]: (CT=172, AT=2097, TT=206), containing 5738 events.
+	CT=[172](`ct:permit_type` ELEMENT OF {'Non Bouw'})
+	AT=[2097](`at:phase` ELEMENT OF {'01_HOOFD_2'})
+	TT=[206](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [3434]: (CT=171, AT=2097, TT=206), containing 10713 events.
+	CT=[171](`ct:permit_type` ELEMENT OF {'Bouw'})
+	AT=[2097](`at:phase` ELEMENT OF {'01_HOOFD_2'})
+	TT=[206](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [3435]: (CT=172, AT=2193, TT=133), containing 56 events.
+	CT=[172](`ct:permit_type` ELEMENT OF {'Non Bouw'})
+	AT=[2193](`at:phase` ELEMENT OF {'01_HOOFD_0', '01_HOOFD_1', '01_HOOFD_4', '01_HOOFD_5'})
+	TT=[133](`tt:weekday` ELEMENT OF {'Sun'})
+-------------------------------------------------------------------------------
+Node [3436]: (CT=171, AT=2193, TT=133), containing 93 events.
+	CT=[171](`ct:permit_type` ELEMENT OF {'Bouw'})
+	AT=[2193](`at:phase` ELEMENT OF {'01_HOOFD_0', '01_HOOFD_1', '01_HOOFD_4', '01_HOOFD_5'})
+	TT=[133](`tt:weekday` ELEMENT OF {'Sun'})
+-------------------------------------------------------------------------------
+Node [3437]: (CT=172, AT=2194, TT=205), containing 15 events.
+	CT=[172](`ct:permit_type` ELEMENT OF {'Non Bouw'})
+	AT=[2194](`at:phase` ELEMENT OF {'01_HOOFD_3'})
+	TT=[205](`tt:weekday` ELEMENT OF {'Sat'})
+-------------------------------------------------------------------------------
+Node [3438]: (CT=171, AT=2194, TT=205), containing 34 events.
+	CT=[171](`ct:permit_type` ELEMENT OF {'Bouw'})
+	AT=[2194](`at:phase` ELEMENT OF {'01_HOOFD_3'})
+	TT=[205](`tt:weekday` ELEMENT OF {'Sat'})
+-------------------------------------------------------------------------------
+Node [3439]: (CT=172, AT=2193, TT=205), containing 277 events.
+	CT=[172](`ct:permit_type` ELEMENT OF {'Non Bouw'})
+	AT=[2193](`at:phase` ELEMENT OF {'01_HOOFD_0', '01_HOOFD_1', '01_HOOFD_4', '01_HOOFD_5'})
+	TT=[205](`tt:weekday` ELEMENT OF {'Sat'})
+-------------------------------------------------------------------------------
+Node [3440]: (CT=171, AT=2193, TT=205), containing 501 events.
+	CT=[171](`ct:permit_type` ELEMENT OF {'Bouw'})
+	AT=[2193](`at:phase` ELEMENT OF {'01_HOOFD_0', '01_HOOFD_1', '01_HOOFD_4', '01_HOOFD_5'})
+	TT=[205](`tt:weekday` ELEMENT OF {'Sat'})
+-------------------------------------------------------------------------------
+Node [3441]: (CT=172, AT=2194, TT=206), containing 6176 events.
+	CT=[172](`ct:permit_type` ELEMENT OF {'Non Bouw'})
+	AT=[2194](`at:phase` ELEMENT OF {'01_HOOFD_3'})
+	TT=[206](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [3442]: (CT=171, AT=2194, TT=206), containing 11660 events.
+	CT=[171](`ct:permit_type` ELEMENT OF {'Bouw'})
+	AT=[2194](`at:phase` ELEMENT OF {'01_HOOFD_3'})
+	TT=[206](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [3443]: (CT=172, AT=2193, TT=206), containing 52839 events.
+	CT=[172](`ct:permit_type` ELEMENT OF {'Non Bouw'})
+	AT=[2193](`at:phase` ELEMENT OF {'01_HOOFD_0', '01_HOOFD_1', '01_HOOFD_4', '01_HOOFD_5'})
+	TT=[206](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [3444]: (CT=171, AT=2193, TT=206), containing 97827 events.
+	CT=[171](`ct:permit_type` ELEMENT OF {'Bouw'})
+	AT=[2193](`at:phase` ELEMENT OF {'01_HOOFD_0', '01_HOOFD_1', '01_HOOFD_4', '01_HOOFD_5'})
+	TT=[206](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Thu', 'Tue', 'Wed'})
+
+===============================================================================
+Step	[9]
+
+-------------------------------------------------------------------------------
+Node [3423]: (CT=171, AT=1536, TT=205), containing 2 events.
+	CT=[171](`ct:permit_type` ELEMENT OF {'Bouw'})
+	AT=[1536](`at:phase` ELEMENT OF {'01_HOOFD_7'})
+	TT=[205](`tt:weekday` ELEMENT OF {'Sat'})
+-------------------------------------------------------------------------------
+Node [3424]: (CT=172, AT=1536, TT=206), containing 242 events.
+	CT=[172](`ct:permit_type` ELEMENT OF {'Non Bouw'})
+	AT=[1536](`at:phase` ELEMENT OF {'01_HOOFD_7'})
+	TT=[206](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [3425]: (CT=171, AT=1536, TT=206), containing 343 events.
+	CT=[171](`ct:permit_type` ELEMENT OF {'Bouw'})
+	AT=[1536](`at:phase` ELEMENT OF {'01_HOOFD_7'})
+	TT=[206](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [3426]: (CT=171, AT=1538, TT=206), containing 15 events.
+	CT=[171](`ct:permit_type` ELEMENT OF {'Bouw'})
+	AT=[1538](`at:phase` ELEMENT OF {'01_HOOFD_6'})
+	TT=[206](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [3427]: (CT=172, AT=1908, TT=205), containing 1 events.
+	CT=[172](`ct:permit_type` ELEMENT OF {'Non Bouw'})
+	AT=[1908](`at:phase` ELEMENT OF {'01_HOOFD_8'})
+	TT=[205](`tt:weekday` ELEMENT OF {'Sat'})
+-------------------------------------------------------------------------------
+Node [3428]: (CT=171, AT=1908, TT=205), containing 9 events.
+	CT=[171](`ct:permit_type` ELEMENT OF {'Bouw'})
+	AT=[1908](`at:phase` ELEMENT OF {'01_HOOFD_8'})
+	TT=[205](`tt:weekday` ELEMENT OF {'Sat'})
+-------------------------------------------------------------------------------
+Node [3429]: (CT=172, AT=1908, TT=206), containing 2492 events.
+	CT=[172](`ct:permit_type` ELEMENT OF {'Non Bouw'})
+	AT=[1908](`at:phase` ELEMENT OF {'01_HOOFD_8'})
+	TT=[206](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [3430]: (CT=171, AT=1908, TT=206), containing 4379 events.
+	CT=[171](`ct:permit_type` ELEMENT OF {'Bouw'})
+	AT=[1908](`at:phase` ELEMENT OF {'01_HOOFD_8'})
+	TT=[206](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [3431]: (CT=172, AT=2097, TT=205), containing 15 events.
+	CT=[172](`ct:permit_type` ELEMENT OF {'Non Bouw'})
+	AT=[2097](`at:phase` ELEMENT OF {'01_HOOFD_2'})
+	TT=[205](`tt:weekday` ELEMENT OF {'Sat'})
+-------------------------------------------------------------------------------
+Node [3432]: (CT=171, AT=2097, TT=205), containing 26 events.
+	CT=[171](`ct:permit_type` ELEMENT OF {'Bouw'})
+	AT=[2097](`at:phase` ELEMENT OF {'01_HOOFD_2'})
+	TT=[205](`tt:weekday` ELEMENT OF {'Sat'})
+-------------------------------------------------------------------------------
+Node [3433]: (CT=172, AT=2097, TT=206), containing 5738 events.
+	CT=[172](`ct:permit_type` ELEMENT OF {'Non Bouw'})
+	AT=[2097](`at:phase` ELEMENT OF {'01_HOOFD_2'})
+	TT=[206](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [3434]: (CT=171, AT=2097, TT=206), containing 10713 events.
+	CT=[171](`ct:permit_type` ELEMENT OF {'Bouw'})
+	AT=[2097](`at:phase` ELEMENT OF {'01_HOOFD_2'})
+	TT=[206](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [3950]: (CT=172, AT=2332, TT=133), containing 56 events.
+	CT=[172](`ct:permit_type` ELEMENT OF {'Non Bouw'})
+	AT=[2332](`at:phase` ELEMENT OF {'01_HOOFD_0', '01_HOOFD_4', '01_HOOFD_5'})
+	TT=[133](`tt:weekday` ELEMENT OF {'Sun'})
+-------------------------------------------------------------------------------
+Node [3951]: (CT=171, AT=2333, TT=133), containing 1 events.
+	CT=[171](`ct:permit_type` ELEMENT OF {'Bouw'})
+	AT=[2333](`at:phase` ELEMENT OF {'01_HOOFD_1'})
+	TT=[133](`tt:weekday` ELEMENT OF {'Sun'})
+-------------------------------------------------------------------------------
+Node [3952]: (CT=171, AT=2332, TT=133), containing 92 events.
+	CT=[171](`ct:permit_type` ELEMENT OF {'Bouw'})
+	AT=[2332](`at:phase` ELEMENT OF {'01_HOOFD_0', '01_HOOFD_4', '01_HOOFD_5'})
+	TT=[133](`tt:weekday` ELEMENT OF {'Sun'})
+-------------------------------------------------------------------------------
+Node [3437]: (CT=172, AT=2194, TT=205), containing 15 events.
+	CT=[172](`ct:permit_type` ELEMENT OF {'Non Bouw'})
+	AT=[2194](`at:phase` ELEMENT OF {'01_HOOFD_3'})
+	TT=[205](`tt:weekday` ELEMENT OF {'Sat'})
+-------------------------------------------------------------------------------
+Node [3438]: (CT=171, AT=2194, TT=205), containing 34 events.
+	CT=[171](`ct:permit_type` ELEMENT OF {'Bouw'})
+	AT=[2194](`at:phase` ELEMENT OF {'01_HOOFD_3'})
+	TT=[205](`tt:weekday` ELEMENT OF {'Sat'})
+-------------------------------------------------------------------------------
+Node [3953]: (CT=172, AT=2333, TT=205), containing 116 events.
+	CT=[172](`ct:permit_type` ELEMENT OF {'Non Bouw'})
+	AT=[2333](`at:phase` ELEMENT OF {'01_HOOFD_1'})
+	TT=[205](`tt:weekday` ELEMENT OF {'Sat'})
+-------------------------------------------------------------------------------
+Node [3954]: (CT=172, AT=2332, TT=205), containing 161 events.
+	CT=[172](`ct:permit_type` ELEMENT OF {'Non Bouw'})
+	AT=[2332](`at:phase` ELEMENT OF {'01_HOOFD_0', '01_HOOFD_4', '01_HOOFD_5'})
+	TT=[205](`tt:weekday` ELEMENT OF {'Sat'})
+-------------------------------------------------------------------------------
+Node [3955]: (CT=171, AT=2333, TT=205), containing 200 events.
+	CT=[171](`ct:permit_type` ELEMENT OF {'Bouw'})
+	AT=[2333](`at:phase` ELEMENT OF {'01_HOOFD_1'})
+	TT=[205](`tt:weekday` ELEMENT OF {'Sat'})
+-------------------------------------------------------------------------------
+Node [3956]: (CT=171, AT=2332, TT=205), containing 301 events.
+	CT=[171](`ct:permit_type` ELEMENT OF {'Bouw'})
+	AT=[2332](`at:phase` ELEMENT OF {'01_HOOFD_0', '01_HOOFD_4', '01_HOOFD_5'})
+	TT=[205](`tt:weekday` ELEMENT OF {'Sat'})
+-------------------------------------------------------------------------------
+Node [3441]: (CT=172, AT=2194, TT=206), containing 6176 events.
+	CT=[172](`ct:permit_type` ELEMENT OF {'Non Bouw'})
+	AT=[2194](`at:phase` ELEMENT OF {'01_HOOFD_3'})
+	TT=[206](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [3442]: (CT=171, AT=2194, TT=206), containing 11660 events.
+	CT=[171](`ct:permit_type` ELEMENT OF {'Bouw'})
+	AT=[2194](`at:phase` ELEMENT OF {'01_HOOFD_3'})
+	TT=[206](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [3957]: (CT=172, AT=2333, TT=206), containing 9948 events.
+	CT=[172](`ct:permit_type` ELEMENT OF {'Non Bouw'})
+	AT=[2333](`at:phase` ELEMENT OF {'01_HOOFD_1'})
+	TT=[206](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [3958]: (CT=172, AT=2332, TT=206), containing 42891 events.
+	CT=[172](`ct:permit_type` ELEMENT OF {'Non Bouw'})
+	AT=[2332](`at:phase` ELEMENT OF {'01_HOOFD_0', '01_HOOFD_4', '01_HOOFD_5'})
+	TT=[206](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [3959]: (CT=171, AT=2333, TT=206), containing 19568 events.
+	CT=[171](`ct:permit_type` ELEMENT OF {'Bouw'})
+	AT=[2333](`at:phase` ELEMENT OF {'01_HOOFD_1'})
+	TT=[206](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [3960]: (CT=171, AT=2332, TT=206), containing 78259 events.
+	CT=[171](`ct:permit_type` ELEMENT OF {'Bouw'})
+	AT=[2332](`at:phase` ELEMENT OF {'01_HOOFD_0', '01_HOOFD_4', '01_HOOFD_5'})
+	TT=[206](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Thu', 'Tue', 'Wed'})
+
+===============================================================================
+Step	[10]
+
+-------------------------------------------------------------------------------
+Node [3423]: (CT=171, AT=1536, TT=205), containing 2 events.
+	CT=[171](`ct:permit_type` ELEMENT OF {'Bouw'})
+	AT=[1536](`at:phase` ELEMENT OF {'01_HOOFD_7'})
+	TT=[205](`tt:weekday` ELEMENT OF {'Sat'})
+-------------------------------------------------------------------------------
+Node [3424]: (CT=172, AT=1536, TT=206), containing 242 events.
+	CT=[172](`ct:permit_type` ELEMENT OF {'Non Bouw'})
+	AT=[1536](`at:phase` ELEMENT OF {'01_HOOFD_7'})
+	TT=[206](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [3425]: (CT=171, AT=1536, TT=206), containing 343 events.
+	CT=[171](`ct:permit_type` ELEMENT OF {'Bouw'})
+	AT=[1536](`at:phase` ELEMENT OF {'01_HOOFD_7'})
+	TT=[206](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [3426]: (CT=171, AT=1538, TT=206), containing 15 events.
+	CT=[171](`ct:permit_type` ELEMENT OF {'Bouw'})
+	AT=[1538](`at:phase` ELEMENT OF {'01_HOOFD_6'})
+	TT=[206](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [3427]: (CT=172, AT=1908, TT=205), containing 1 events.
+	CT=[172](`ct:permit_type` ELEMENT OF {'Non Bouw'})
+	AT=[1908](`at:phase` ELEMENT OF {'01_HOOFD_8'})
+	TT=[205](`tt:weekday` ELEMENT OF {'Sat'})
+-------------------------------------------------------------------------------
+Node [3428]: (CT=171, AT=1908, TT=205), containing 9 events.
+	CT=[171](`ct:permit_type` ELEMENT OF {'Bouw'})
+	AT=[1908](`at:phase` ELEMENT OF {'01_HOOFD_8'})
+	TT=[205](`tt:weekday` ELEMENT OF {'Sat'})
+-------------------------------------------------------------------------------
+Node [3429]: (CT=172, AT=1908, TT=206), containing 2492 events.
+	CT=[172](`ct:permit_type` ELEMENT OF {'Non Bouw'})
+	AT=[1908](`at:phase` ELEMENT OF {'01_HOOFD_8'})
+	TT=[206](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [3430]: (CT=171, AT=1908, TT=206), containing 4379 events.
+	CT=[171](`ct:permit_type` ELEMENT OF {'Bouw'})
+	AT=[1908](`at:phase` ELEMENT OF {'01_HOOFD_8'})
+	TT=[206](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [3431]: (CT=172, AT=2097, TT=205), containing 15 events.
+	CT=[172](`ct:permit_type` ELEMENT OF {'Non Bouw'})
+	AT=[2097](`at:phase` ELEMENT OF {'01_HOOFD_2'})
+	TT=[205](`tt:weekday` ELEMENT OF {'Sat'})
+-------------------------------------------------------------------------------
+Node [3432]: (CT=171, AT=2097, TT=205), containing 26 events.
+	CT=[171](`ct:permit_type` ELEMENT OF {'Bouw'})
+	AT=[2097](`at:phase` ELEMENT OF {'01_HOOFD_2'})
+	TT=[205](`tt:weekday` ELEMENT OF {'Sat'})
+-------------------------------------------------------------------------------
+Node [3433]: (CT=172, AT=2097, TT=206), containing 5738 events.
+	CT=[172](`ct:permit_type` ELEMENT OF {'Non Bouw'})
+	AT=[2097](`at:phase` ELEMENT OF {'01_HOOFD_2'})
+	TT=[206](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [3434]: (CT=171, AT=2097, TT=206), containing 10713 events.
+	CT=[171](`ct:permit_type` ELEMENT OF {'Bouw'})
+	AT=[2097](`at:phase` ELEMENT OF {'01_HOOFD_2'})
+	TT=[206](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [3437]: (CT=172, AT=2194, TT=205), containing 15 events.
+	CT=[172](`ct:permit_type` ELEMENT OF {'Non Bouw'})
+	AT=[2194](`at:phase` ELEMENT OF {'01_HOOFD_3'})
+	TT=[205](`tt:weekday` ELEMENT OF {'Sat'})
+-------------------------------------------------------------------------------
+Node [3438]: (CT=171, AT=2194, TT=205), containing 34 events.
+	CT=[171](`ct:permit_type` ELEMENT OF {'Bouw'})
+	AT=[2194](`at:phase` ELEMENT OF {'01_HOOFD_3'})
+	TT=[205](`tt:weekday` ELEMENT OF {'Sat'})
+-------------------------------------------------------------------------------
+Node [3441]: (CT=172, AT=2194, TT=206), containing 6176 events.
+	CT=[172](`ct:permit_type` ELEMENT OF {'Non Bouw'})
+	AT=[2194](`at:phase` ELEMENT OF {'01_HOOFD_3'})
+	TT=[206](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [3442]: (CT=171, AT=2194, TT=206), containing 11660 events.
+	CT=[171](`ct:permit_type` ELEMENT OF {'Bouw'})
+	AT=[2194](`at:phase` ELEMENT OF {'01_HOOFD_3'})
+	TT=[206](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [4500]: (CT=172, AT=2386, TT=133), containing 56 events.
+	CT=[172](`ct:permit_type` ELEMENT OF {'Non Bouw'})
+	AT=[2386](`at:phase` ELEMENT OF {'01_HOOFD_0', '01_HOOFD_4'})
+	TT=[133](`tt:weekday` ELEMENT OF {'Sun'})
+-------------------------------------------------------------------------------
+Node [3951]: (CT=171, AT=2333, TT=133), containing 1 events.
+	CT=[171](`ct:permit_type` ELEMENT OF {'Bouw'})
+	AT=[2333](`at:phase` ELEMENT OF {'01_HOOFD_1'})
+	TT=[133](`tt:weekday` ELEMENT OF {'Sun'})
+-------------------------------------------------------------------------------
+Node [4501]: (CT=171, AT=2387, TT=133), containing 1 events.
+	CT=[171](`ct:permit_type` ELEMENT OF {'Bouw'})
+	AT=[2387](`at:phase` ELEMENT OF {'01_HOOFD_5'})
+	TT=[133](`tt:weekday` ELEMENT OF {'Sun'})
+-------------------------------------------------------------------------------
+Node [4502]: (CT=171, AT=2386, TT=133), containing 91 events.
+	CT=[171](`ct:permit_type` ELEMENT OF {'Bouw'})
+	AT=[2386](`at:phase` ELEMENT OF {'01_HOOFD_0', '01_HOOFD_4'})
+	TT=[133](`tt:weekday` ELEMENT OF {'Sun'})
+-------------------------------------------------------------------------------
+Node [3953]: (CT=172, AT=2333, TT=205), containing 116 events.
+	CT=[172](`ct:permit_type` ELEMENT OF {'Non Bouw'})
+	AT=[2333](`at:phase` ELEMENT OF {'01_HOOFD_1'})
+	TT=[205](`tt:weekday` ELEMENT OF {'Sat'})
+-------------------------------------------------------------------------------
+Node [4503]: (CT=172, AT=2387, TT=205), containing 94 events.
+	CT=[172](`ct:permit_type` ELEMENT OF {'Non Bouw'})
+	AT=[2387](`at:phase` ELEMENT OF {'01_HOOFD_5'})
+	TT=[205](`tt:weekday` ELEMENT OF {'Sat'})
+-------------------------------------------------------------------------------
+Node [4504]: (CT=172, AT=2386, TT=205), containing 67 events.
+	CT=[172](`ct:permit_type` ELEMENT OF {'Non Bouw'})
+	AT=[2386](`at:phase` ELEMENT OF {'01_HOOFD_0', '01_HOOFD_4'})
+	TT=[205](`tt:weekday` ELEMENT OF {'Sat'})
+-------------------------------------------------------------------------------
+Node [3955]: (CT=171, AT=2333, TT=205), containing 200 events.
+	CT=[171](`ct:permit_type` ELEMENT OF {'Bouw'})
+	AT=[2333](`at:phase` ELEMENT OF {'01_HOOFD_1'})
+	TT=[205](`tt:weekday` ELEMENT OF {'Sat'})
+-------------------------------------------------------------------------------
+Node [4505]: (CT=171, AT=2387, TT=205), containing 129 events.
+	CT=[171](`ct:permit_type` ELEMENT OF {'Bouw'})
+	AT=[2387](`at:phase` ELEMENT OF {'01_HOOFD_5'})
+	TT=[205](`tt:weekday` ELEMENT OF {'Sat'})
+-------------------------------------------------------------------------------
+Node [4506]: (CT=171, AT=2386, TT=205), containing 172 events.
+	CT=[171](`ct:permit_type` ELEMENT OF {'Bouw'})
+	AT=[2386](`at:phase` ELEMENT OF {'01_HOOFD_0', '01_HOOFD_4'})
+	TT=[205](`tt:weekday` ELEMENT OF {'Sat'})
+-------------------------------------------------------------------------------
+Node [3957]: (CT=172, AT=2333, TT=206), containing 9948 events.
+	CT=[172](`ct:permit_type` ELEMENT OF {'Non Bouw'})
+	AT=[2333](`at:phase` ELEMENT OF {'01_HOOFD_1'})
+	TT=[206](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [4507]: (CT=172, AT=2387, TT=206), containing 10293 events.
+	CT=[172](`ct:permit_type` ELEMENT OF {'Non Bouw'})
+	AT=[2387](`at:phase` ELEMENT OF {'01_HOOFD_5'})
+	TT=[206](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [4508]: (CT=172, AT=2386, TT=206), containing 32598 events.
+	CT=[172](`ct:permit_type` ELEMENT OF {'Non Bouw'})
+	AT=[2386](`at:phase` ELEMENT OF {'01_HOOFD_0', '01_HOOFD_4'})
+	TT=[206](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [3959]: (CT=171, AT=2333, TT=206), containing 19568 events.
+	CT=[171](`ct:permit_type` ELEMENT OF {'Bouw'})
+	AT=[2333](`at:phase` ELEMENT OF {'01_HOOFD_1'})
+	TT=[206](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [4509]: (CT=171, AT=2387, TT=206), containing 19330 events.
+	CT=[171](`ct:permit_type` ELEMENT OF {'Bouw'})
+	AT=[2387](`at:phase` ELEMENT OF {'01_HOOFD_5'})
+	TT=[206](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [4510]: (CT=171, AT=2386, TT=206), containing 58929 events.
+	CT=[171](`ct:permit_type` ELEMENT OF {'Bouw'})
+	AT=[2386](`at:phase` ELEMENT OF {'01_HOOFD_0', '01_HOOFD_4'})
+	TT=[206](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Thu', 'Tue', 'Wed'})
+
+===============================================================================
+Step	[11]
+
+-------------------------------------------------------------------------------
+Node [3423]: (CT=171, AT=1536, TT=205), containing 2 events.
+	CT=[171](`ct:permit_type` ELEMENT OF {'Bouw'})
+	AT=[1536](`at:phase` ELEMENT OF {'01_HOOFD_7'})
+	TT=[205](`tt:weekday` ELEMENT OF {'Sat'})
+-------------------------------------------------------------------------------
+Node [3424]: (CT=172, AT=1536, TT=206), containing 242 events.
+	CT=[172](`ct:permit_type` ELEMENT OF {'Non Bouw'})
+	AT=[1536](`at:phase` ELEMENT OF {'01_HOOFD_7'})
+	TT=[206](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [3425]: (CT=171, AT=1536, TT=206), containing 343 events.
+	CT=[171](`ct:permit_type` ELEMENT OF {'Bouw'})
+	AT=[1536](`at:phase` ELEMENT OF {'01_HOOFD_7'})
+	TT=[206](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [3426]: (CT=171, AT=1538, TT=206), containing 15 events.
+	CT=[171](`ct:permit_type` ELEMENT OF {'Bouw'})
+	AT=[1538](`at:phase` ELEMENT OF {'01_HOOFD_6'})
+	TT=[206](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [3427]: (CT=172, AT=1908, TT=205), containing 1 events.
+	CT=[172](`ct:permit_type` ELEMENT OF {'Non Bouw'})
+	AT=[1908](`at:phase` ELEMENT OF {'01_HOOFD_8'})
+	TT=[205](`tt:weekday` ELEMENT OF {'Sat'})
+-------------------------------------------------------------------------------
+Node [3428]: (CT=171, AT=1908, TT=205), containing 9 events.
+	CT=[171](`ct:permit_type` ELEMENT OF {'Bouw'})
+	AT=[1908](`at:phase` ELEMENT OF {'01_HOOFD_8'})
+	TT=[205](`tt:weekday` ELEMENT OF {'Sat'})
+-------------------------------------------------------------------------------
+Node [3429]: (CT=172, AT=1908, TT=206), containing 2492 events.
+	CT=[172](`ct:permit_type` ELEMENT OF {'Non Bouw'})
+	AT=[1908](`at:phase` ELEMENT OF {'01_HOOFD_8'})
+	TT=[206](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [3430]: (CT=171, AT=1908, TT=206), containing 4379 events.
+	CT=[171](`ct:permit_type` ELEMENT OF {'Bouw'})
+	AT=[1908](`at:phase` ELEMENT OF {'01_HOOFD_8'})
+	TT=[206](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [3431]: (CT=172, AT=2097, TT=205), containing 15 events.
+	CT=[172](`ct:permit_type` ELEMENT OF {'Non Bouw'})
+	AT=[2097](`at:phase` ELEMENT OF {'01_HOOFD_2'})
+	TT=[205](`tt:weekday` ELEMENT OF {'Sat'})
+-------------------------------------------------------------------------------
+Node [3432]: (CT=171, AT=2097, TT=205), containing 26 events.
+	CT=[171](`ct:permit_type` ELEMENT OF {'Bouw'})
+	AT=[2097](`at:phase` ELEMENT OF {'01_HOOFD_2'})
+	TT=[205](`tt:weekday` ELEMENT OF {'Sat'})
+-------------------------------------------------------------------------------
+Node [3433]: (CT=172, AT=2097, TT=206), containing 5738 events.
+	CT=[172](`ct:permit_type` ELEMENT OF {'Non Bouw'})
+	AT=[2097](`at:phase` ELEMENT OF {'01_HOOFD_2'})
+	TT=[206](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [3434]: (CT=171, AT=2097, TT=206), containing 10713 events.
+	CT=[171](`ct:permit_type` ELEMENT OF {'Bouw'})
+	AT=[2097](`at:phase` ELEMENT OF {'01_HOOFD_2'})
+	TT=[206](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [3437]: (CT=172, AT=2194, TT=205), containing 15 events.
+	CT=[172](`ct:permit_type` ELEMENT OF {'Non Bouw'})
+	AT=[2194](`at:phase` ELEMENT OF {'01_HOOFD_3'})
+	TT=[205](`tt:weekday` ELEMENT OF {'Sat'})
+-------------------------------------------------------------------------------
+Node [3438]: (CT=171, AT=2194, TT=205), containing 34 events.
+	CT=[171](`ct:permit_type` ELEMENT OF {'Bouw'})
+	AT=[2194](`at:phase` ELEMENT OF {'01_HOOFD_3'})
+	TT=[205](`tt:weekday` ELEMENT OF {'Sat'})
+-------------------------------------------------------------------------------
+Node [3441]: (CT=172, AT=2194, TT=206), containing 6176 events.
+	CT=[172](`ct:permit_type` ELEMENT OF {'Non Bouw'})
+	AT=[2194](`at:phase` ELEMENT OF {'01_HOOFD_3'})
+	TT=[206](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [3442]: (CT=171, AT=2194, TT=206), containing 11660 events.
+	CT=[171](`ct:permit_type` ELEMENT OF {'Bouw'})
+	AT=[2194](`at:phase` ELEMENT OF {'01_HOOFD_3'})
+	TT=[206](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [3951]: (CT=171, AT=2333, TT=133), containing 1 events.
+	CT=[171](`ct:permit_type` ELEMENT OF {'Bouw'})
+	AT=[2333](`at:phase` ELEMENT OF {'01_HOOFD_1'})
+	TT=[133](`tt:weekday` ELEMENT OF {'Sun'})
+-------------------------------------------------------------------------------
+Node [3953]: (CT=172, AT=2333, TT=205), containing 116 events.
+	CT=[172](`ct:permit_type` ELEMENT OF {'Non Bouw'})
+	AT=[2333](`at:phase` ELEMENT OF {'01_HOOFD_1'})
+	TT=[205](`tt:weekday` ELEMENT OF {'Sat'})
+-------------------------------------------------------------------------------
+Node [3955]: (CT=171, AT=2333, TT=205), containing 200 events.
+	CT=[171](`ct:permit_type` ELEMENT OF {'Bouw'})
+	AT=[2333](`at:phase` ELEMENT OF {'01_HOOFD_1'})
+	TT=[205](`tt:weekday` ELEMENT OF {'Sat'})
+-------------------------------------------------------------------------------
+Node [3957]: (CT=172, AT=2333, TT=206), containing 9948 events.
+	CT=[172](`ct:permit_type` ELEMENT OF {'Non Bouw'})
+	AT=[2333](`at:phase` ELEMENT OF {'01_HOOFD_1'})
+	TT=[206](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [3959]: (CT=171, AT=2333, TT=206), containing 19568 events.
+	CT=[171](`ct:permit_type` ELEMENT OF {'Bouw'})
+	AT=[2333](`at:phase` ELEMENT OF {'01_HOOFD_1'})
+	TT=[206](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [5105]: (CT=172, AT=2417, TT=133), containing 56 events.
+	CT=[172](`ct:permit_type` ELEMENT OF {'Non Bouw'})
+	AT=[2417](`at:phase` ELEMENT OF {'01_HOOFD_0'})
+	TT=[133](`tt:weekday` ELEMENT OF {'Sun'})
+-------------------------------------------------------------------------------
+Node [4501]: (CT=171, AT=2387, TT=133), containing 1 events.
+	CT=[171](`ct:permit_type` ELEMENT OF {'Bouw'})
+	AT=[2387](`at:phase` ELEMENT OF {'01_HOOFD_5'})
+	TT=[133](`tt:weekday` ELEMENT OF {'Sun'})
+-------------------------------------------------------------------------------
+Node [5106]: (CT=171, AT=2417, TT=133), containing 91 events.
+	CT=[171](`ct:permit_type` ELEMENT OF {'Bouw'})
+	AT=[2417](`at:phase` ELEMENT OF {'01_HOOFD_0'})
+	TT=[133](`tt:weekday` ELEMENT OF {'Sun'})
+-------------------------------------------------------------------------------
+Node [4503]: (CT=172, AT=2387, TT=205), containing 94 events.
+	CT=[172](`ct:permit_type` ELEMENT OF {'Non Bouw'})
+	AT=[2387](`at:phase` ELEMENT OF {'01_HOOFD_5'})
+	TT=[205](`tt:weekday` ELEMENT OF {'Sat'})
+-------------------------------------------------------------------------------
+Node [5107]: (CT=172, AT=2419, TT=205), containing 27 events.
+	CT=[172](`ct:permit_type` ELEMENT OF {'Non Bouw'})
+	AT=[2419](`at:phase` ELEMENT OF {'01_HOOFD_4'})
+	TT=[205](`tt:weekday` ELEMENT OF {'Sat'})
+-------------------------------------------------------------------------------
+Node [5108]: (CT=172, AT=2417, TT=205), containing 40 events.
+	CT=[172](`ct:permit_type` ELEMENT OF {'Non Bouw'})
+	AT=[2417](`at:phase` ELEMENT OF {'01_HOOFD_0'})
+	TT=[205](`tt:weekday` ELEMENT OF {'Sat'})
+-------------------------------------------------------------------------------
+Node [4505]: (CT=171, AT=2387, TT=205), containing 129 events.
+	CT=[171](`ct:permit_type` ELEMENT OF {'Bouw'})
+	AT=[2387](`at:phase` ELEMENT OF {'01_HOOFD_5'})
+	TT=[205](`tt:weekday` ELEMENT OF {'Sat'})
+-------------------------------------------------------------------------------
+Node [5109]: (CT=171, AT=2419, TT=205), containing 55 events.
+	CT=[171](`ct:permit_type` ELEMENT OF {'Bouw'})
+	AT=[2419](`at:phase` ELEMENT OF {'01_HOOFD_4'})
+	TT=[205](`tt:weekday` ELEMENT OF {'Sat'})
+-------------------------------------------------------------------------------
+Node [5110]: (CT=171, AT=2417, TT=205), containing 117 events.
+	CT=[171](`ct:permit_type` ELEMENT OF {'Bouw'})
+	AT=[2417](`at:phase` ELEMENT OF {'01_HOOFD_0'})
+	TT=[205](`tt:weekday` ELEMENT OF {'Sat'})
+-------------------------------------------------------------------------------
+Node [4507]: (CT=172, AT=2387, TT=206), containing 10293 events.
+	CT=[172](`ct:permit_type` ELEMENT OF {'Non Bouw'})
+	AT=[2387](`at:phase` ELEMENT OF {'01_HOOFD_5'})
+	TT=[206](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [5111]: (CT=172, AT=2419, TT=206), containing 15277 events.
+	CT=[172](`ct:permit_type` ELEMENT OF {'Non Bouw'})
+	AT=[2419](`at:phase` ELEMENT OF {'01_HOOFD_4'})
+	TT=[206](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [5112]: (CT=172, AT=2417, TT=206), containing 17321 events.
+	CT=[172](`ct:permit_type` ELEMENT OF {'Non Bouw'})
+	AT=[2417](`at:phase` ELEMENT OF {'01_HOOFD_0'})
+	TT=[206](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [4509]: (CT=171, AT=2387, TT=206), containing 19330 events.
+	CT=[171](`ct:permit_type` ELEMENT OF {'Bouw'})
+	AT=[2387](`at:phase` ELEMENT OF {'01_HOOFD_5'})
+	TT=[206](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [5113]: (CT=171, AT=2419, TT=206), containing 27469 events.
+	CT=[171](`ct:permit_type` ELEMENT OF {'Bouw'})
+	AT=[2419](`at:phase` ELEMENT OF {'01_HOOFD_4'})
+	TT=[206](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [5114]: (CT=171, AT=2417, TT=206), containing 31460 events.
+	CT=[171](`ct:permit_type` ELEMENT OF {'Bouw'})
+	AT=[2417](`at:phase` ELEMENT OF {'01_HOOFD_0'})
+	TT=[206](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Thu', 'Tue', 'Wed'})
+
+===============================================================================
+Step	[12]
+
+-------------------------------------------------------------------------------
+Node [3423]: (CT=171, AT=1536, TT=205), containing 2 events.
+	CT=[171](`ct:permit_type` ELEMENT OF {'Bouw'})
+	AT=[1536](`at:phase` ELEMENT OF {'01_HOOFD_7'})
+	TT=[205](`tt:weekday` ELEMENT OF {'Sat'})
+-------------------------------------------------------------------------------
+Node [5765]: (CT=172, AT=1536, TT=3147), containing 207 events.
+	CT=[172](`ct:permit_type` ELEMENT OF {'Non Bouw'})
+	AT=[1536](`at:phase` ELEMENT OF {'01_HOOFD_7'})
+	TT=[3147](`tt:weekday` ELEMENT OF {'Mon', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [5766]: (CT=172, AT=1536, TT=3148), containing 35 events.
+	CT=[172](`ct:permit_type` ELEMENT OF {'Non Bouw'})
+	AT=[1536](`at:phase` ELEMENT OF {'01_HOOFD_7'})
+	TT=[3148](`tt:weekday` ELEMENT OF {'Fri'})
+-------------------------------------------------------------------------------
+Node [5767]: (CT=171, AT=1536, TT=3147), containing 288 events.
+	CT=[171](`ct:permit_type` ELEMENT OF {'Bouw'})
+	AT=[1536](`at:phase` ELEMENT OF {'01_HOOFD_7'})
+	TT=[3147](`tt:weekday` ELEMENT OF {'Mon', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [5768]: (CT=171, AT=1536, TT=3148), containing 55 events.
+	CT=[171](`ct:permit_type` ELEMENT OF {'Bouw'})
+	AT=[1536](`at:phase` ELEMENT OF {'01_HOOFD_7'})
+	TT=[3148](`tt:weekday` ELEMENT OF {'Fri'})
+-------------------------------------------------------------------------------
+Node [5769]: (CT=171, AT=1538, TT=3147), containing 14 events.
+	CT=[171](`ct:permit_type` ELEMENT OF {'Bouw'})
+	AT=[1538](`at:phase` ELEMENT OF {'01_HOOFD_6'})
+	TT=[3147](`tt:weekday` ELEMENT OF {'Mon', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [5770]: (CT=171, AT=1538, TT=3148), containing 1 events.
+	CT=[171](`ct:permit_type` ELEMENT OF {'Bouw'})
+	AT=[1538](`at:phase` ELEMENT OF {'01_HOOFD_6'})
+	TT=[3148](`tt:weekday` ELEMENT OF {'Fri'})
+-------------------------------------------------------------------------------
+Node [3427]: (CT=172, AT=1908, TT=205), containing 1 events.
+	CT=[172](`ct:permit_type` ELEMENT OF {'Non Bouw'})
+	AT=[1908](`at:phase` ELEMENT OF {'01_HOOFD_8'})
+	TT=[205](`tt:weekday` ELEMENT OF {'Sat'})
+-------------------------------------------------------------------------------
+Node [3428]: (CT=171, AT=1908, TT=205), containing 9 events.
+	CT=[171](`ct:permit_type` ELEMENT OF {'Bouw'})
+	AT=[1908](`at:phase` ELEMENT OF {'01_HOOFD_8'})
+	TT=[205](`tt:weekday` ELEMENT OF {'Sat'})
+-------------------------------------------------------------------------------
+Node [5771]: (CT=172, AT=1908, TT=3147), containing 2085 events.
+	CT=[172](`ct:permit_type` ELEMENT OF {'Non Bouw'})
+	AT=[1908](`at:phase` ELEMENT OF {'01_HOOFD_8'})
+	TT=[3147](`tt:weekday` ELEMENT OF {'Mon', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [5772]: (CT=172, AT=1908, TT=3148), containing 407 events.
+	CT=[172](`ct:permit_type` ELEMENT OF {'Non Bouw'})
+	AT=[1908](`at:phase` ELEMENT OF {'01_HOOFD_8'})
+	TT=[3148](`tt:weekday` ELEMENT OF {'Fri'})
+-------------------------------------------------------------------------------
+Node [5773]: (CT=171, AT=1908, TT=3147), containing 3653 events.
+	CT=[171](`ct:permit_type` ELEMENT OF {'Bouw'})
+	AT=[1908](`at:phase` ELEMENT OF {'01_HOOFD_8'})
+	TT=[3147](`tt:weekday` ELEMENT OF {'Mon', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [5774]: (CT=171, AT=1908, TT=3148), containing 726 events.
+	CT=[171](`ct:permit_type` ELEMENT OF {'Bouw'})
+	AT=[1908](`at:phase` ELEMENT OF {'01_HOOFD_8'})
+	TT=[3148](`tt:weekday` ELEMENT OF {'Fri'})
+-------------------------------------------------------------------------------
+Node [3431]: (CT=172, AT=2097, TT=205), containing 15 events.
+	CT=[172](`ct:permit_type` ELEMENT OF {'Non Bouw'})
+	AT=[2097](`at:phase` ELEMENT OF {'01_HOOFD_2'})
+	TT=[205](`tt:weekday` ELEMENT OF {'Sat'})
+-------------------------------------------------------------------------------
+Node [3432]: (CT=171, AT=2097, TT=205), containing 26 events.
+	CT=[171](`ct:permit_type` ELEMENT OF {'Bouw'})
+	AT=[2097](`at:phase` ELEMENT OF {'01_HOOFD_2'})
+	TT=[205](`tt:weekday` ELEMENT OF {'Sat'})
+-------------------------------------------------------------------------------
+Node [5775]: (CT=172, AT=2097, TT=3147), containing 4923 events.
+	CT=[172](`ct:permit_type` ELEMENT OF {'Non Bouw'})
+	AT=[2097](`at:phase` ELEMENT OF {'01_HOOFD_2'})
+	TT=[3147](`tt:weekday` ELEMENT OF {'Mon', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [5776]: (CT=172, AT=2097, TT=3148), containing 815 events.
+	CT=[172](`ct:permit_type` ELEMENT OF {'Non Bouw'})
+	AT=[2097](`at:phase` ELEMENT OF {'01_HOOFD_2'})
+	TT=[3148](`tt:weekday` ELEMENT OF {'Fri'})
+-------------------------------------------------------------------------------
+Node [5777]: (CT=171, AT=2097, TT=3147), containing 9267 events.
+	CT=[171](`ct:permit_type` ELEMENT OF {'Bouw'})
+	AT=[2097](`at:phase` ELEMENT OF {'01_HOOFD_2'})
+	TT=[3147](`tt:weekday` ELEMENT OF {'Mon', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [5778]: (CT=171, AT=2097, TT=3148), containing 1446 events.
+	CT=[171](`ct:permit_type` ELEMENT OF {'Bouw'})
+	AT=[2097](`at:phase` ELEMENT OF {'01_HOOFD_2'})
+	TT=[3148](`tt:weekday` ELEMENT OF {'Fri'})
+-------------------------------------------------------------------------------
+Node [3437]: (CT=172, AT=2194, TT=205), containing 15 events.
+	CT=[172](`ct:permit_type` ELEMENT OF {'Non Bouw'})
+	AT=[2194](`at:phase` ELEMENT OF {'01_HOOFD_3'})
+	TT=[205](`tt:weekday` ELEMENT OF {'Sat'})
+-------------------------------------------------------------------------------
+Node [3438]: (CT=171, AT=2194, TT=205), containing 34 events.
+	CT=[171](`ct:permit_type` ELEMENT OF {'Bouw'})
+	AT=[2194](`at:phase` ELEMENT OF {'01_HOOFD_3'})
+	TT=[205](`tt:weekday` ELEMENT OF {'Sat'})
+-------------------------------------------------------------------------------
+Node [5779]: (CT=172, AT=2194, TT=3147), containing 5266 events.
+	CT=[172](`ct:permit_type` ELEMENT OF {'Non Bouw'})
+	AT=[2194](`at:phase` ELEMENT OF {'01_HOOFD_3'})
+	TT=[3147](`tt:weekday` ELEMENT OF {'Mon', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [5780]: (CT=172, AT=2194, TT=3148), containing 910 events.
+	CT=[172](`ct:permit_type` ELEMENT OF {'Non Bouw'})
+	AT=[2194](`at:phase` ELEMENT OF {'01_HOOFD_3'})
+	TT=[3148](`tt:weekday` ELEMENT OF {'Fri'})
+-------------------------------------------------------------------------------
+Node [5781]: (CT=171, AT=2194, TT=3147), containing 10079 events.
+	CT=[171](`ct:permit_type` ELEMENT OF {'Bouw'})
+	AT=[2194](`at:phase` ELEMENT OF {'01_HOOFD_3'})
+	TT=[3147](`tt:weekday` ELEMENT OF {'Mon', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [5782]: (CT=171, AT=2194, TT=3148), containing 1581 events.
+	CT=[171](`ct:permit_type` ELEMENT OF {'Bouw'})
+	AT=[2194](`at:phase` ELEMENT OF {'01_HOOFD_3'})
+	TT=[3148](`tt:weekday` ELEMENT OF {'Fri'})
+-------------------------------------------------------------------------------
+Node [3951]: (CT=171, AT=2333, TT=133), containing 1 events.
+	CT=[171](`ct:permit_type` ELEMENT OF {'Bouw'})
+	AT=[2333](`at:phase` ELEMENT OF {'01_HOOFD_1'})
+	TT=[133](`tt:weekday` ELEMENT OF {'Sun'})
+-------------------------------------------------------------------------------
+Node [3953]: (CT=172, AT=2333, TT=205), containing 116 events.
+	CT=[172](`ct:permit_type` ELEMENT OF {'Non Bouw'})
+	AT=[2333](`at:phase` ELEMENT OF {'01_HOOFD_1'})
+	TT=[205](`tt:weekday` ELEMENT OF {'Sat'})
+-------------------------------------------------------------------------------
+Node [3955]: (CT=171, AT=2333, TT=205), containing 200 events.
+	CT=[171](`ct:permit_type` ELEMENT OF {'Bouw'})
+	AT=[2333](`at:phase` ELEMENT OF {'01_HOOFD_1'})
+	TT=[205](`tt:weekday` ELEMENT OF {'Sat'})
+-------------------------------------------------------------------------------
+Node [5783]: (CT=172, AT=2333, TT=3147), containing 8521 events.
+	CT=[172](`ct:permit_type` ELEMENT OF {'Non Bouw'})
+	AT=[2333](`at:phase` ELEMENT OF {'01_HOOFD_1'})
+	TT=[3147](`tt:weekday` ELEMENT OF {'Mon', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [5784]: (CT=172, AT=2333, TT=3148), containing 1427 events.
+	CT=[172](`ct:permit_type` ELEMENT OF {'Non Bouw'})
+	AT=[2333](`at:phase` ELEMENT OF {'01_HOOFD_1'})
+	TT=[3148](`tt:weekday` ELEMENT OF {'Fri'})
+-------------------------------------------------------------------------------
+Node [5785]: (CT=171, AT=2333, TT=3147), containing 16767 events.
+	CT=[171](`ct:permit_type` ELEMENT OF {'Bouw'})
+	AT=[2333](`at:phase` ELEMENT OF {'01_HOOFD_1'})
+	TT=[3147](`tt:weekday` ELEMENT OF {'Mon', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [5786]: (CT=171, AT=2333, TT=3148), containing 2801 events.
+	CT=[171](`ct:permit_type` ELEMENT OF {'Bouw'})
+	AT=[2333](`at:phase` ELEMENT OF {'01_HOOFD_1'})
+	TT=[3148](`tt:weekday` ELEMENT OF {'Fri'})
+-------------------------------------------------------------------------------
+Node [4501]: (CT=171, AT=2387, TT=133), containing 1 events.
+	CT=[171](`ct:permit_type` ELEMENT OF {'Bouw'})
+	AT=[2387](`at:phase` ELEMENT OF {'01_HOOFD_5'})
+	TT=[133](`tt:weekday` ELEMENT OF {'Sun'})
+-------------------------------------------------------------------------------
+Node [4503]: (CT=172, AT=2387, TT=205), containing 94 events.
+	CT=[172](`ct:permit_type` ELEMENT OF {'Non Bouw'})
+	AT=[2387](`at:phase` ELEMENT OF {'01_HOOFD_5'})
+	TT=[205](`tt:weekday` ELEMENT OF {'Sat'})
+-------------------------------------------------------------------------------
+Node [4505]: (CT=171, AT=2387, TT=205), containing 129 events.
+	CT=[171](`ct:permit_type` ELEMENT OF {'Bouw'})
+	AT=[2387](`at:phase` ELEMENT OF {'01_HOOFD_5'})
+	TT=[205](`tt:weekday` ELEMENT OF {'Sat'})
+-------------------------------------------------------------------------------
+Node [5787]: (CT=172, AT=2387, TT=3147), containing 8940 events.
+	CT=[172](`ct:permit_type` ELEMENT OF {'Non Bouw'})
+	AT=[2387](`at:phase` ELEMENT OF {'01_HOOFD_5'})
+	TT=[3147](`tt:weekday` ELEMENT OF {'Mon', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [5788]: (CT=172, AT=2387, TT=3148), containing 1353 events.
+	CT=[172](`ct:permit_type` ELEMENT OF {'Non Bouw'})
+	AT=[2387](`at:phase` ELEMENT OF {'01_HOOFD_5'})
+	TT=[3148](`tt:weekday` ELEMENT OF {'Fri'})
+-------------------------------------------------------------------------------
+Node [5789]: (CT=171, AT=2387, TT=3147), containing 16267 events.
+	CT=[171](`ct:permit_type` ELEMENT OF {'Bouw'})
+	AT=[2387](`at:phase` ELEMENT OF {'01_HOOFD_5'})
+	TT=[3147](`tt:weekday` ELEMENT OF {'Mon', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [5790]: (CT=171, AT=2387, TT=3148), containing 3063 events.
+	CT=[171](`ct:permit_type` ELEMENT OF {'Bouw'})
+	AT=[2387](`at:phase` ELEMENT OF {'01_HOOFD_5'})
+	TT=[3148](`tt:weekday` ELEMENT OF {'Fri'})
+-------------------------------------------------------------------------------
+Node [5105]: (CT=172, AT=2417, TT=133), containing 56 events.
+	CT=[172](`ct:permit_type` ELEMENT OF {'Non Bouw'})
+	AT=[2417](`at:phase` ELEMENT OF {'01_HOOFD_0'})
+	TT=[133](`tt:weekday` ELEMENT OF {'Sun'})
+-------------------------------------------------------------------------------
+Node [5106]: (CT=171, AT=2417, TT=133), containing 91 events.
+	CT=[171](`ct:permit_type` ELEMENT OF {'Bouw'})
+	AT=[2417](`at:phase` ELEMENT OF {'01_HOOFD_0'})
+	TT=[133](`tt:weekday` ELEMENT OF {'Sun'})
+-------------------------------------------------------------------------------
+Node [5107]: (CT=172, AT=2419, TT=205), containing 27 events.
+	CT=[172](`ct:permit_type` ELEMENT OF {'Non Bouw'})
+	AT=[2419](`at:phase` ELEMENT OF {'01_HOOFD_4'})
+	TT=[205](`tt:weekday` ELEMENT OF {'Sat'})
+-------------------------------------------------------------------------------
+Node [5108]: (CT=172, AT=2417, TT=205), containing 40 events.
+	CT=[172](`ct:permit_type` ELEMENT OF {'Non Bouw'})
+	AT=[2417](`at:phase` ELEMENT OF {'01_HOOFD_0'})
+	TT=[205](`tt:weekday` ELEMENT OF {'Sat'})
+-------------------------------------------------------------------------------
+Node [5109]: (CT=171, AT=2419, TT=205), containing 55 events.
+	CT=[171](`ct:permit_type` ELEMENT OF {'Bouw'})
+	AT=[2419](`at:phase` ELEMENT OF {'01_HOOFD_4'})
+	TT=[205](`tt:weekday` ELEMENT OF {'Sat'})
+-------------------------------------------------------------------------------
+Node [5110]: (CT=171, AT=2417, TT=205), containing 117 events.
+	CT=[171](`ct:permit_type` ELEMENT OF {'Bouw'})
+	AT=[2417](`at:phase` ELEMENT OF {'01_HOOFD_0'})
+	TT=[205](`tt:weekday` ELEMENT OF {'Sat'})
+-------------------------------------------------------------------------------
+Node [5791]: (CT=172, AT=2419, TT=3147), containing 13201 events.
+	CT=[172](`ct:permit_type` ELEMENT OF {'Non Bouw'})
+	AT=[2419](`at:phase` ELEMENT OF {'01_HOOFD_4'})
+	TT=[3147](`tt:weekday` ELEMENT OF {'Mon', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [5792]: (CT=172, AT=2419, TT=3148), containing 2076 events.
+	CT=[172](`ct:permit_type` ELEMENT OF {'Non Bouw'})
+	AT=[2419](`at:phase` ELEMENT OF {'01_HOOFD_4'})
+	TT=[3148](`tt:weekday` ELEMENT OF {'Fri'})
+-------------------------------------------------------------------------------
+Node [5793]: (CT=172, AT=2417, TT=3147), containing 14848 events.
+	CT=[172](`ct:permit_type` ELEMENT OF {'Non Bouw'})
+	AT=[2417](`at:phase` ELEMENT OF {'01_HOOFD_0'})
+	TT=[3147](`tt:weekday` ELEMENT OF {'Mon', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [5794]: (CT=172, AT=2417, TT=3148), containing 2473 events.
+	CT=[172](`ct:permit_type` ELEMENT OF {'Non Bouw'})
+	AT=[2417](`at:phase` ELEMENT OF {'01_HOOFD_0'})
+	TT=[3148](`tt:weekday` ELEMENT OF {'Fri'})
+-------------------------------------------------------------------------------
+Node [5795]: (CT=171, AT=2419, TT=3147), containing 23826 events.
+	CT=[171](`ct:permit_type` ELEMENT OF {'Bouw'})
+	AT=[2419](`at:phase` ELEMENT OF {'01_HOOFD_4'})
+	TT=[3147](`tt:weekday` ELEMENT OF {'Mon', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [5796]: (CT=171, AT=2419, TT=3148), containing 3643 events.
+	CT=[171](`ct:permit_type` ELEMENT OF {'Bouw'})
+	AT=[2419](`at:phase` ELEMENT OF {'01_HOOFD_4'})
+	TT=[3148](`tt:weekday` ELEMENT OF {'Fri'})
+-------------------------------------------------------------------------------
+Node [5797]: (CT=171, AT=2417, TT=3147), containing 27033 events.
+	CT=[171](`ct:permit_type` ELEMENT OF {'Bouw'})
+	AT=[2417](`at:phase` ELEMENT OF {'01_HOOFD_0'})
+	TT=[3147](`tt:weekday` ELEMENT OF {'Mon', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [5798]: (CT=171, AT=2417, TT=3148), containing 4427 events.
+	CT=[171](`ct:permit_type` ELEMENT OF {'Bouw'})
+	AT=[2417](`at:phase` ELEMENT OF {'01_HOOFD_0'})
+	TT=[3148](`tt:weekday` ELEMENT OF {'Fri'})
