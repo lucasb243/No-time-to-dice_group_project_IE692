@@ -1,0 +1,338 @@
+
+===============================================================================
+Step	[1]
+
+-------------------------------------------------------------------------------
+Node [351]: (CT=17, AT=0, TT=0), containing 1630 events.
+	CT=[17](`ct:item_type` ELEMENT OF {'Subcontracting'})
+	AT=[0]T(NULL)
+	TT=[0]T(NULL)
+-------------------------------------------------------------------------------
+Node [352]: (CT=18, AT=0, TT=0), containing 317603 events.
+	CT=[18](`ct:item_type` ELEMENT OF {'Service', 'Standard', 'Third-party'})
+	AT=[0]T(NULL)
+	TT=[0]T(NULL)
+
+===============================================================================
+Step	[2]
+
+-------------------------------------------------------------------------------
+Node [1027]: (CT=17, AT=607, TT=0), containing 9 events.
+	CT=[17](`ct:item_type` ELEMENT OF {'Subcontracting'})
+	AT=[607](`at:phase` ELEMENT OF {'Change Final Invoice Indicator', 'Create Purchase Requisition Item', 'Delete Purchase Order Item', 'Release Purchase Order', 'SRM: Awaiting Approval', 'SRM: Complete', 'SRM: Created', 'SRM: In Transfer to Execution Syst.', 'SRM: Incomplete', 'SRM: Transfer Failed (E.Sys.)'})
+	TT=[0]T(NULL)
+-------------------------------------------------------------------------------
+Node [1028]: (CT=17, AT=608, TT=0), containing 1621 events.
+	CT=[17](`ct:item_type` ELEMENT OF {'Subcontracting'})
+	AT=[608](`at:phase` ELEMENT OF {'Cancel Goods Receipt', 'Cancel Invoice Receipt', 'Cancel Subsequent Invoice', 'Change Approval for Purchase Order', 'Change Delivery Indicator', 'Change Price', 'Change Quantity', 'Change Rejection Indicator', 'Change Storage Location', 'Change payment term', 'Clear Invoice', 'Create Purchase Order Item', 'Reactivate Purchase Order Item', 'Receive Order Confirmation', 'Record Goods Receipt', 'Record Invoice Receipt', 'Record Service Entry Sheet', 'Record Subsequent Invoice', 'Remove Payment Block', 'SRM: Change was Transmitted', 'SRM: Deleted', 'SRM: Document Completed', 'SRM: Held', 'SRM: Ordered', 'SRM: Transaction Completed', 'Set Payment Block', 'Vendor creates debit memo', 'Vendor creates invoice'})
+	TT=[0]T(NULL)
+-------------------------------------------------------------------------------
+Node [1029]: (CT=18, AT=607, TT=0), containing 4783 events.
+	CT=[18](`ct:item_type` ELEMENT OF {'Service', 'Standard', 'Third-party'})
+	AT=[607](`at:phase` ELEMENT OF {'Change Final Invoice Indicator', 'Create Purchase Requisition Item', 'Delete Purchase Order Item', 'Release Purchase Order', 'SRM: Awaiting Approval', 'SRM: Complete', 'SRM: Created', 'SRM: In Transfer to Execution Syst.', 'SRM: Incomplete', 'SRM: Transfer Failed (E.Sys.)'})
+	TT=[0]T(NULL)
+-------------------------------------------------------------------------------
+Node [1030]: (CT=18, AT=608, TT=0), containing 312820 events.
+	CT=[18](`ct:item_type` ELEMENT OF {'Service', 'Standard', 'Third-party'})
+	AT=[608](`at:phase` ELEMENT OF {'Cancel Goods Receipt', 'Cancel Invoice Receipt', 'Cancel Subsequent Invoice', 'Change Approval for Purchase Order', 'Change Delivery Indicator', 'Change Price', 'Change Quantity', 'Change Rejection Indicator', 'Change Storage Location', 'Change payment term', 'Clear Invoice', 'Create Purchase Order Item', 'Reactivate Purchase Order Item', 'Receive Order Confirmation', 'Record Goods Receipt', 'Record Invoice Receipt', 'Record Service Entry Sheet', 'Record Subsequent Invoice', 'Remove Payment Block', 'SRM: Change was Transmitted', 'SRM: Deleted', 'SRM: Document Completed', 'SRM: Held', 'SRM: Ordered', 'SRM: Transaction Completed', 'Set Payment Block', 'Vendor creates debit memo', 'Vendor creates invoice'})
+	TT=[0]T(NULL)
+
+===============================================================================
+Step	[3]
+
+-------------------------------------------------------------------------------
+Node [2272]: (CT=17, AT=607, TT=913), containing 9 events.
+	CT=[17](`ct:item_type` ELEMENT OF {'Subcontracting'})
+	AT=[607](`at:phase` ELEMENT OF {'Change Final Invoice Indicator', 'Create Purchase Requisition Item', 'Delete Purchase Order Item', 'Release Purchase Order', 'SRM: Awaiting Approval', 'SRM: Complete', 'SRM: Created', 'SRM: In Transfer to Execution Syst.', 'SRM: Incomplete', 'SRM: Transfer Failed (E.Sys.)'})
+	TT=[913](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Sat', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [2273]: (CT=17, AT=608, TT=913), containing 1621 events.
+	CT=[17](`ct:item_type` ELEMENT OF {'Subcontracting'})
+	AT=[608](`at:phase` ELEMENT OF {'Cancel Goods Receipt', 'Cancel Invoice Receipt', 'Cancel Subsequent Invoice', 'Change Approval for Purchase Order', 'Change Delivery Indicator', 'Change Price', 'Change Quantity', 'Change Rejection Indicator', 'Change Storage Location', 'Change payment term', 'Clear Invoice', 'Create Purchase Order Item', 'Reactivate Purchase Order Item', 'Receive Order Confirmation', 'Record Goods Receipt', 'Record Invoice Receipt', 'Record Service Entry Sheet', 'Record Subsequent Invoice', 'Remove Payment Block', 'SRM: Change was Transmitted', 'SRM: Deleted', 'SRM: Document Completed', 'SRM: Held', 'SRM: Ordered', 'SRM: Transaction Completed', 'Set Payment Block', 'Vendor creates debit memo', 'Vendor creates invoice'})
+	TT=[913](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Sat', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [2274]: (CT=18, AT=607, TT=915), containing 233 events.
+	CT=[18](`ct:item_type` ELEMENT OF {'Service', 'Standard', 'Third-party'})
+	AT=[607](`at:phase` ELEMENT OF {'Change Final Invoice Indicator', 'Create Purchase Requisition Item', 'Delete Purchase Order Item', 'Release Purchase Order', 'SRM: Awaiting Approval', 'SRM: Complete', 'SRM: Created', 'SRM: In Transfer to Execution Syst.', 'SRM: Incomplete', 'SRM: Transfer Failed (E.Sys.)'})
+	TT=[915](`tt:weekday` ELEMENT OF {'Sun'})
+-------------------------------------------------------------------------------
+Node [2275]: (CT=18, AT=607, TT=913), containing 4550 events.
+	CT=[18](`ct:item_type` ELEMENT OF {'Service', 'Standard', 'Third-party'})
+	AT=[607](`at:phase` ELEMENT OF {'Change Final Invoice Indicator', 'Create Purchase Requisition Item', 'Delete Purchase Order Item', 'Release Purchase Order', 'SRM: Awaiting Approval', 'SRM: Complete', 'SRM: Created', 'SRM: In Transfer to Execution Syst.', 'SRM: Incomplete', 'SRM: Transfer Failed (E.Sys.)'})
+	TT=[913](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Sat', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [2276]: (CT=18, AT=608, TT=915), containing 2599 events.
+	CT=[18](`ct:item_type` ELEMENT OF {'Service', 'Standard', 'Third-party'})
+	AT=[608](`at:phase` ELEMENT OF {'Cancel Goods Receipt', 'Cancel Invoice Receipt', 'Cancel Subsequent Invoice', 'Change Approval for Purchase Order', 'Change Delivery Indicator', 'Change Price', 'Change Quantity', 'Change Rejection Indicator', 'Change Storage Location', 'Change payment term', 'Clear Invoice', 'Create Purchase Order Item', 'Reactivate Purchase Order Item', 'Receive Order Confirmation', 'Record Goods Receipt', 'Record Invoice Receipt', 'Record Service Entry Sheet', 'Record Subsequent Invoice', 'Remove Payment Block', 'SRM: Change was Transmitted', 'SRM: Deleted', 'SRM: Document Completed', 'SRM: Held', 'SRM: Ordered', 'SRM: Transaction Completed', 'Set Payment Block', 'Vendor creates debit memo', 'Vendor creates invoice'})
+	TT=[915](`tt:weekday` ELEMENT OF {'Sun'})
+-------------------------------------------------------------------------------
+Node [2277]: (CT=18, AT=608, TT=913), containing 310221 events.
+	CT=[18](`ct:item_type` ELEMENT OF {'Service', 'Standard', 'Third-party'})
+	AT=[608](`at:phase` ELEMENT OF {'Cancel Goods Receipt', 'Cancel Invoice Receipt', 'Cancel Subsequent Invoice', 'Change Approval for Purchase Order', 'Change Delivery Indicator', 'Change Price', 'Change Quantity', 'Change Rejection Indicator', 'Change Storage Location', 'Change payment term', 'Clear Invoice', 'Create Purchase Order Item', 'Reactivate Purchase Order Item', 'Receive Order Confirmation', 'Record Goods Receipt', 'Record Invoice Receipt', 'Record Service Entry Sheet', 'Record Subsequent Invoice', 'Remove Payment Block', 'SRM: Change was Transmitted', 'SRM: Deleted', 'SRM: Document Completed', 'SRM: Held', 'SRM: Ordered', 'SRM: Transaction Completed', 'Set Payment Block', 'Vendor creates debit memo', 'Vendor creates invoice'})
+	TT=[913](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Sat', 'Thu', 'Tue', 'Wed'})
+
+===============================================================================
+Step	[4]
+
+-------------------------------------------------------------------------------
+Node [2272]: (CT=17, AT=607, TT=913), containing 9 events.
+	CT=[17](`ct:item_type` ELEMENT OF {'Subcontracting'})
+	AT=[607](`at:phase` ELEMENT OF {'Change Final Invoice Indicator', 'Create Purchase Requisition Item', 'Delete Purchase Order Item', 'Release Purchase Order', 'SRM: Awaiting Approval', 'SRM: Complete', 'SRM: Created', 'SRM: In Transfer to Execution Syst.', 'SRM: Incomplete', 'SRM: Transfer Failed (E.Sys.)'})
+	TT=[913](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Sat', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [3693]: (CT=17, AT=2427, TT=913), containing 1252 events.
+	CT=[17](`ct:item_type` ELEMENT OF {'Subcontracting'})
+	AT=[2427](`at:phase` ELEMENT OF {'Cancel Subsequent Invoice', 'Change Price', 'Change Quantity', 'Change Storage Location', 'Change payment term', 'Create Purchase Order Item', 'Reactivate Purchase Order Item', 'Record Goods Receipt', 'SRM: Held', 'SRM: Transaction Completed', 'Set Payment Block'})
+	TT=[913](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Sat', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [3694]: (CT=17, AT=2428, TT=913), containing 369 events.
+	CT=[17](`ct:item_type` ELEMENT OF {'Subcontracting'})
+	AT=[2428](`at:phase` ELEMENT OF {'Cancel Goods Receipt', 'Cancel Invoice Receipt', 'Change Approval for Purchase Order', 'Change Delivery Indicator', 'Change Rejection Indicator', 'Clear Invoice', 'Receive Order Confirmation', 'Record Invoice Receipt', 'Record Service Entry Sheet', 'Record Subsequent Invoice', 'Remove Payment Block', 'SRM: Change was Transmitted', 'SRM: Deleted', 'SRM: Document Completed', 'SRM: Ordered', 'Vendor creates debit memo', 'Vendor creates invoice'})
+	TT=[913](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Sat', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [2274]: (CT=18, AT=607, TT=915), containing 233 events.
+	CT=[18](`ct:item_type` ELEMENT OF {'Service', 'Standard', 'Third-party'})
+	AT=[607](`at:phase` ELEMENT OF {'Change Final Invoice Indicator', 'Create Purchase Requisition Item', 'Delete Purchase Order Item', 'Release Purchase Order', 'SRM: Awaiting Approval', 'SRM: Complete', 'SRM: Created', 'SRM: In Transfer to Execution Syst.', 'SRM: Incomplete', 'SRM: Transfer Failed (E.Sys.)'})
+	TT=[915](`tt:weekday` ELEMENT OF {'Sun'})
+-------------------------------------------------------------------------------
+Node [2275]: (CT=18, AT=607, TT=913), containing 4550 events.
+	CT=[18](`ct:item_type` ELEMENT OF {'Service', 'Standard', 'Third-party'})
+	AT=[607](`at:phase` ELEMENT OF {'Change Final Invoice Indicator', 'Create Purchase Requisition Item', 'Delete Purchase Order Item', 'Release Purchase Order', 'SRM: Awaiting Approval', 'SRM: Complete', 'SRM: Created', 'SRM: In Transfer to Execution Syst.', 'SRM: Incomplete', 'SRM: Transfer Failed (E.Sys.)'})
+	TT=[913](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Sat', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [3695]: (CT=18, AT=2427, TT=915), containing 851 events.
+	CT=[18](`ct:item_type` ELEMENT OF {'Service', 'Standard', 'Third-party'})
+	AT=[2427](`at:phase` ELEMENT OF {'Cancel Subsequent Invoice', 'Change Price', 'Change Quantity', 'Change Storage Location', 'Change payment term', 'Create Purchase Order Item', 'Reactivate Purchase Order Item', 'Record Goods Receipt', 'SRM: Held', 'SRM: Transaction Completed', 'Set Payment Block'})
+	TT=[915](`tt:weekday` ELEMENT OF {'Sun'})
+-------------------------------------------------------------------------------
+Node [3696]: (CT=18, AT=2428, TT=915), containing 1748 events.
+	CT=[18](`ct:item_type` ELEMENT OF {'Service', 'Standard', 'Third-party'})
+	AT=[2428](`at:phase` ELEMENT OF {'Cancel Goods Receipt', 'Cancel Invoice Receipt', 'Change Approval for Purchase Order', 'Change Delivery Indicator', 'Change Rejection Indicator', 'Clear Invoice', 'Receive Order Confirmation', 'Record Invoice Receipt', 'Record Service Entry Sheet', 'Record Subsequent Invoice', 'Remove Payment Block', 'SRM: Change was Transmitted', 'SRM: Deleted', 'SRM: Document Completed', 'SRM: Ordered', 'Vendor creates debit memo', 'Vendor creates invoice'})
+	TT=[915](`tt:weekday` ELEMENT OF {'Sun'})
+-------------------------------------------------------------------------------
+Node [3697]: (CT=18, AT=2427, TT=913), containing 91321 events.
+	CT=[18](`ct:item_type` ELEMENT OF {'Service', 'Standard', 'Third-party'})
+	AT=[2427](`at:phase` ELEMENT OF {'Cancel Subsequent Invoice', 'Change Price', 'Change Quantity', 'Change Storage Location', 'Change payment term', 'Create Purchase Order Item', 'Reactivate Purchase Order Item', 'Record Goods Receipt', 'SRM: Held', 'SRM: Transaction Completed', 'Set Payment Block'})
+	TT=[913](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Sat', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [3698]: (CT=18, AT=2428, TT=913), containing 218900 events.
+	CT=[18](`ct:item_type` ELEMENT OF {'Service', 'Standard', 'Third-party'})
+	AT=[2428](`at:phase` ELEMENT OF {'Cancel Goods Receipt', 'Cancel Invoice Receipt', 'Change Approval for Purchase Order', 'Change Delivery Indicator', 'Change Rejection Indicator', 'Clear Invoice', 'Receive Order Confirmation', 'Record Invoice Receipt', 'Record Service Entry Sheet', 'Record Subsequent Invoice', 'Remove Payment Block', 'SRM: Change was Transmitted', 'SRM: Deleted', 'SRM: Document Completed', 'SRM: Ordered', 'Vendor creates debit memo', 'Vendor creates invoice'})
+	TT=[913](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Sat', 'Thu', 'Tue', 'Wed'})
+
+===============================================================================
+Step	[5]
+
+-------------------------------------------------------------------------------
+Node [2272]: (CT=17, AT=607, TT=913), containing 9 events.
+	CT=[17](`ct:item_type` ELEMENT OF {'Subcontracting'})
+	AT=[607](`at:phase` ELEMENT OF {'Change Final Invoice Indicator', 'Create Purchase Requisition Item', 'Delete Purchase Order Item', 'Release Purchase Order', 'SRM: Awaiting Approval', 'SRM: Complete', 'SRM: Created', 'SRM: In Transfer to Execution Syst.', 'SRM: Incomplete', 'SRM: Transfer Failed (E.Sys.)'})
+	TT=[913](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Sat', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [2274]: (CT=18, AT=607, TT=915), containing 233 events.
+	CT=[18](`ct:item_type` ELEMENT OF {'Service', 'Standard', 'Third-party'})
+	AT=[607](`at:phase` ELEMENT OF {'Change Final Invoice Indicator', 'Create Purchase Requisition Item', 'Delete Purchase Order Item', 'Release Purchase Order', 'SRM: Awaiting Approval', 'SRM: Complete', 'SRM: Created', 'SRM: In Transfer to Execution Syst.', 'SRM: Incomplete', 'SRM: Transfer Failed (E.Sys.)'})
+	TT=[915](`tt:weekday` ELEMENT OF {'Sun'})
+-------------------------------------------------------------------------------
+Node [2275]: (CT=18, AT=607, TT=913), containing 4550 events.
+	CT=[18](`ct:item_type` ELEMENT OF {'Service', 'Standard', 'Third-party'})
+	AT=[607](`at:phase` ELEMENT OF {'Change Final Invoice Indicator', 'Create Purchase Requisition Item', 'Delete Purchase Order Item', 'Release Purchase Order', 'SRM: Awaiting Approval', 'SRM: Complete', 'SRM: Created', 'SRM: In Transfer to Execution Syst.', 'SRM: Incomplete', 'SRM: Transfer Failed (E.Sys.)'})
+	TT=[913](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Sat', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [3693]: (CT=17, AT=2427, TT=913), containing 1252 events.
+	CT=[17](`ct:item_type` ELEMENT OF {'Subcontracting'})
+	AT=[2427](`at:phase` ELEMENT OF {'Cancel Subsequent Invoice', 'Change Price', 'Change Quantity', 'Change Storage Location', 'Change payment term', 'Create Purchase Order Item', 'Reactivate Purchase Order Item', 'Record Goods Receipt', 'SRM: Held', 'SRM: Transaction Completed', 'Set Payment Block'})
+	TT=[913](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Sat', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [5835]: (CT=17, AT=4109, TT=913), containing 359 events.
+	CT=[17](`ct:item_type` ELEMENT OF {'Subcontracting'})
+	AT=[4109](`at:phase` ELEMENT OF {'Cancel Invoice Receipt', 'Clear Invoice', 'Record Invoice Receipt', 'Record Service Entry Sheet', 'Remove Payment Block', 'SRM: Change was Transmitted', 'SRM: Document Completed', 'SRM: Ordered', 'Vendor creates debit memo', 'Vendor creates invoice'})
+	TT=[913](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Sat', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [5836]: (CT=17, AT=4110, TT=913), containing 10 events.
+	CT=[17](`ct:item_type` ELEMENT OF {'Subcontracting'})
+	AT=[4110](`at:phase` ELEMENT OF {'Cancel Goods Receipt', 'Change Approval for Purchase Order', 'Change Delivery Indicator', 'Change Rejection Indicator', 'Receive Order Confirmation', 'Record Subsequent Invoice', 'SRM: Deleted'})
+	TT=[913](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Sat', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [3695]: (CT=18, AT=2427, TT=915), containing 851 events.
+	CT=[18](`ct:item_type` ELEMENT OF {'Service', 'Standard', 'Third-party'})
+	AT=[2427](`at:phase` ELEMENT OF {'Cancel Subsequent Invoice', 'Change Price', 'Change Quantity', 'Change Storage Location', 'Change payment term', 'Create Purchase Order Item', 'Reactivate Purchase Order Item', 'Record Goods Receipt', 'SRM: Held', 'SRM: Transaction Completed', 'Set Payment Block'})
+	TT=[915](`tt:weekday` ELEMENT OF {'Sun'})
+-------------------------------------------------------------------------------
+Node [5837]: (CT=18, AT=4109, TT=915), containing 1737 events.
+	CT=[18](`ct:item_type` ELEMENT OF {'Service', 'Standard', 'Third-party'})
+	AT=[4109](`at:phase` ELEMENT OF {'Cancel Invoice Receipt', 'Clear Invoice', 'Record Invoice Receipt', 'Record Service Entry Sheet', 'Remove Payment Block', 'SRM: Change was Transmitted', 'SRM: Document Completed', 'SRM: Ordered', 'Vendor creates debit memo', 'Vendor creates invoice'})
+	TT=[915](`tt:weekday` ELEMENT OF {'Sun'})
+-------------------------------------------------------------------------------
+Node [5838]: (CT=18, AT=4110, TT=915), containing 11 events.
+	CT=[18](`ct:item_type` ELEMENT OF {'Service', 'Standard', 'Third-party'})
+	AT=[4110](`at:phase` ELEMENT OF {'Cancel Goods Receipt', 'Change Approval for Purchase Order', 'Change Delivery Indicator', 'Change Rejection Indicator', 'Receive Order Confirmation', 'Record Subsequent Invoice', 'SRM: Deleted'})
+	TT=[915](`tt:weekday` ELEMENT OF {'Sun'})
+-------------------------------------------------------------------------------
+Node [3697]: (CT=18, AT=2427, TT=913), containing 91321 events.
+	CT=[18](`ct:item_type` ELEMENT OF {'Service', 'Standard', 'Third-party'})
+	AT=[2427](`at:phase` ELEMENT OF {'Cancel Subsequent Invoice', 'Change Price', 'Change Quantity', 'Change Storage Location', 'Change payment term', 'Create Purchase Order Item', 'Reactivate Purchase Order Item', 'Record Goods Receipt', 'SRM: Held', 'SRM: Transaction Completed', 'Set Payment Block'})
+	TT=[913](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Sat', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [5839]: (CT=18, AT=4109, TT=913), containing 217514 events.
+	CT=[18](`ct:item_type` ELEMENT OF {'Service', 'Standard', 'Third-party'})
+	AT=[4109](`at:phase` ELEMENT OF {'Cancel Invoice Receipt', 'Clear Invoice', 'Record Invoice Receipt', 'Record Service Entry Sheet', 'Remove Payment Block', 'SRM: Change was Transmitted', 'SRM: Document Completed', 'SRM: Ordered', 'Vendor creates debit memo', 'Vendor creates invoice'})
+	TT=[913](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Sat', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [5840]: (CT=18, AT=4110, TT=913), containing 1386 events.
+	CT=[18](`ct:item_type` ELEMENT OF {'Service', 'Standard', 'Third-party'})
+	AT=[4110](`at:phase` ELEMENT OF {'Cancel Goods Receipt', 'Change Approval for Purchase Order', 'Change Delivery Indicator', 'Change Rejection Indicator', 'Receive Order Confirmation', 'Record Subsequent Invoice', 'SRM: Deleted'})
+	TT=[913](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Sat', 'Thu', 'Tue', 'Wed'})
+
+===============================================================================
+Step	[6]
+
+-------------------------------------------------------------------------------
+Node [2272]: (CT=17, AT=607, TT=913), containing 9 events.
+	CT=[17](`ct:item_type` ELEMENT OF {'Subcontracting'})
+	AT=[607](`at:phase` ELEMENT OF {'Change Final Invoice Indicator', 'Create Purchase Requisition Item', 'Delete Purchase Order Item', 'Release Purchase Order', 'SRM: Awaiting Approval', 'SRM: Complete', 'SRM: Created', 'SRM: In Transfer to Execution Syst.', 'SRM: Incomplete', 'SRM: Transfer Failed (E.Sys.)'})
+	TT=[913](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Sat', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [2274]: (CT=18, AT=607, TT=915), containing 233 events.
+	CT=[18](`ct:item_type` ELEMENT OF {'Service', 'Standard', 'Third-party'})
+	AT=[607](`at:phase` ELEMENT OF {'Change Final Invoice Indicator', 'Create Purchase Requisition Item', 'Delete Purchase Order Item', 'Release Purchase Order', 'SRM: Awaiting Approval', 'SRM: Complete', 'SRM: Created', 'SRM: In Transfer to Execution Syst.', 'SRM: Incomplete', 'SRM: Transfer Failed (E.Sys.)'})
+	TT=[915](`tt:weekday` ELEMENT OF {'Sun'})
+-------------------------------------------------------------------------------
+Node [2275]: (CT=18, AT=607, TT=913), containing 4550 events.
+	CT=[18](`ct:item_type` ELEMENT OF {'Service', 'Standard', 'Third-party'})
+	AT=[607](`at:phase` ELEMENT OF {'Change Final Invoice Indicator', 'Create Purchase Requisition Item', 'Delete Purchase Order Item', 'Release Purchase Order', 'SRM: Awaiting Approval', 'SRM: Complete', 'SRM: Created', 'SRM: In Transfer to Execution Syst.', 'SRM: Incomplete', 'SRM: Transfer Failed (E.Sys.)'})
+	TT=[913](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Sat', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [3693]: (CT=17, AT=2427, TT=913), containing 1252 events.
+	CT=[17](`ct:item_type` ELEMENT OF {'Subcontracting'})
+	AT=[2427](`at:phase` ELEMENT OF {'Cancel Subsequent Invoice', 'Change Price', 'Change Quantity', 'Change Storage Location', 'Change payment term', 'Create Purchase Order Item', 'Reactivate Purchase Order Item', 'Record Goods Receipt', 'SRM: Held', 'SRM: Transaction Completed', 'Set Payment Block'})
+	TT=[913](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Sat', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [3695]: (CT=18, AT=2427, TT=915), containing 851 events.
+	CT=[18](`ct:item_type` ELEMENT OF {'Service', 'Standard', 'Third-party'})
+	AT=[2427](`at:phase` ELEMENT OF {'Cancel Subsequent Invoice', 'Change Price', 'Change Quantity', 'Change Storage Location', 'Change payment term', 'Create Purchase Order Item', 'Reactivate Purchase Order Item', 'Record Goods Receipt', 'SRM: Held', 'SRM: Transaction Completed', 'Set Payment Block'})
+	TT=[915](`tt:weekday` ELEMENT OF {'Sun'})
+-------------------------------------------------------------------------------
+Node [3697]: (CT=18, AT=2427, TT=913), containing 91321 events.
+	CT=[18](`ct:item_type` ELEMENT OF {'Service', 'Standard', 'Third-party'})
+	AT=[2427](`at:phase` ELEMENT OF {'Cancel Subsequent Invoice', 'Change Price', 'Change Quantity', 'Change Storage Location', 'Change payment term', 'Create Purchase Order Item', 'Reactivate Purchase Order Item', 'Record Goods Receipt', 'SRM: Held', 'SRM: Transaction Completed', 'Set Payment Block'})
+	TT=[913](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Sat', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [5835]: (CT=17, AT=4109, TT=913), containing 359 events.
+	CT=[17](`ct:item_type` ELEMENT OF {'Subcontracting'})
+	AT=[4109](`at:phase` ELEMENT OF {'Cancel Invoice Receipt', 'Clear Invoice', 'Record Invoice Receipt', 'Record Service Entry Sheet', 'Remove Payment Block', 'SRM: Change was Transmitted', 'SRM: Document Completed', 'SRM: Ordered', 'Vendor creates debit memo', 'Vendor creates invoice'})
+	TT=[913](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Sat', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [8431]: (CT=17, AT=6105, TT=913), containing 10 events.
+	CT=[17](`ct:item_type` ELEMENT OF {'Subcontracting'})
+	AT=[6105](`at:phase` ELEMENT OF {'Cancel Goods Receipt', 'Change Approval for Purchase Order', 'Change Delivery Indicator', 'Change Rejection Indicator', 'Receive Order Confirmation'})
+	TT=[913](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Sat', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [5837]: (CT=18, AT=4109, TT=915), containing 1737 events.
+	CT=[18](`ct:item_type` ELEMENT OF {'Service', 'Standard', 'Third-party'})
+	AT=[4109](`at:phase` ELEMENT OF {'Cancel Invoice Receipt', 'Clear Invoice', 'Record Invoice Receipt', 'Record Service Entry Sheet', 'Remove Payment Block', 'SRM: Change was Transmitted', 'SRM: Document Completed', 'SRM: Ordered', 'Vendor creates debit memo', 'Vendor creates invoice'})
+	TT=[915](`tt:weekday` ELEMENT OF {'Sun'})
+-------------------------------------------------------------------------------
+Node [8432]: (CT=18, AT=6106, TT=915), containing 1 events.
+	CT=[18](`ct:item_type` ELEMENT OF {'Service', 'Standard', 'Third-party'})
+	AT=[6106](`at:phase` ELEMENT OF {'Record Subsequent Invoice', 'SRM: Deleted'})
+	TT=[915](`tt:weekday` ELEMENT OF {'Sun'})
+-------------------------------------------------------------------------------
+Node [8433]: (CT=18, AT=6105, TT=915), containing 10 events.
+	CT=[18](`ct:item_type` ELEMENT OF {'Service', 'Standard', 'Third-party'})
+	AT=[6105](`at:phase` ELEMENT OF {'Cancel Goods Receipt', 'Change Approval for Purchase Order', 'Change Delivery Indicator', 'Change Rejection Indicator', 'Receive Order Confirmation'})
+	TT=[915](`tt:weekday` ELEMENT OF {'Sun'})
+-------------------------------------------------------------------------------
+Node [5839]: (CT=18, AT=4109, TT=913), containing 217514 events.
+	CT=[18](`ct:item_type` ELEMENT OF {'Service', 'Standard', 'Third-party'})
+	AT=[4109](`at:phase` ELEMENT OF {'Cancel Invoice Receipt', 'Clear Invoice', 'Record Invoice Receipt', 'Record Service Entry Sheet', 'Remove Payment Block', 'SRM: Change was Transmitted', 'SRM: Document Completed', 'SRM: Ordered', 'Vendor creates debit memo', 'Vendor creates invoice'})
+	TT=[913](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Sat', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [8434]: (CT=18, AT=6106, TT=913), containing 159 events.
+	CT=[18](`ct:item_type` ELEMENT OF {'Service', 'Standard', 'Third-party'})
+	AT=[6106](`at:phase` ELEMENT OF {'Record Subsequent Invoice', 'SRM: Deleted'})
+	TT=[913](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Sat', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [8435]: (CT=18, AT=6105, TT=913), containing 1227 events.
+	CT=[18](`ct:item_type` ELEMENT OF {'Service', 'Standard', 'Third-party'})
+	AT=[6105](`at:phase` ELEMENT OF {'Cancel Goods Receipt', 'Change Approval for Purchase Order', 'Change Delivery Indicator', 'Change Rejection Indicator', 'Receive Order Confirmation'})
+	TT=[913](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Sat', 'Thu', 'Tue', 'Wed'})
+
+===============================================================================
+Step	[7]
+
+-------------------------------------------------------------------------------
+Node [2272]: (CT=17, AT=607, TT=913), containing 9 events.
+	CT=[17](`ct:item_type` ELEMENT OF {'Subcontracting'})
+	AT=[607](`at:phase` ELEMENT OF {'Change Final Invoice Indicator', 'Create Purchase Requisition Item', 'Delete Purchase Order Item', 'Release Purchase Order', 'SRM: Awaiting Approval', 'SRM: Complete', 'SRM: Created', 'SRM: In Transfer to Execution Syst.', 'SRM: Incomplete', 'SRM: Transfer Failed (E.Sys.)'})
+	TT=[913](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Sat', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [2274]: (CT=18, AT=607, TT=915), containing 233 events.
+	CT=[18](`ct:item_type` ELEMENT OF {'Service', 'Standard', 'Third-party'})
+	AT=[607](`at:phase` ELEMENT OF {'Change Final Invoice Indicator', 'Create Purchase Requisition Item', 'Delete Purchase Order Item', 'Release Purchase Order', 'SRM: Awaiting Approval', 'SRM: Complete', 'SRM: Created', 'SRM: In Transfer to Execution Syst.', 'SRM: Incomplete', 'SRM: Transfer Failed (E.Sys.)'})
+	TT=[915](`tt:weekday` ELEMENT OF {'Sun'})
+-------------------------------------------------------------------------------
+Node [2275]: (CT=18, AT=607, TT=913), containing 4550 events.
+	CT=[18](`ct:item_type` ELEMENT OF {'Service', 'Standard', 'Third-party'})
+	AT=[607](`at:phase` ELEMENT OF {'Change Final Invoice Indicator', 'Create Purchase Requisition Item', 'Delete Purchase Order Item', 'Release Purchase Order', 'SRM: Awaiting Approval', 'SRM: Complete', 'SRM: Created', 'SRM: In Transfer to Execution Syst.', 'SRM: Incomplete', 'SRM: Transfer Failed (E.Sys.)'})
+	TT=[913](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Sat', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [3693]: (CT=17, AT=2427, TT=913), containing 1252 events.
+	CT=[17](`ct:item_type` ELEMENT OF {'Subcontracting'})
+	AT=[2427](`at:phase` ELEMENT OF {'Cancel Subsequent Invoice', 'Change Price', 'Change Quantity', 'Change Storage Location', 'Change payment term', 'Create Purchase Order Item', 'Reactivate Purchase Order Item', 'Record Goods Receipt', 'SRM: Held', 'SRM: Transaction Completed', 'Set Payment Block'})
+	TT=[913](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Sat', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [3695]: (CT=18, AT=2427, TT=915), containing 851 events.
+	CT=[18](`ct:item_type` ELEMENT OF {'Service', 'Standard', 'Third-party'})
+	AT=[2427](`at:phase` ELEMENT OF {'Cancel Subsequent Invoice', 'Change Price', 'Change Quantity', 'Change Storage Location', 'Change payment term', 'Create Purchase Order Item', 'Reactivate Purchase Order Item', 'Record Goods Receipt', 'SRM: Held', 'SRM: Transaction Completed', 'Set Payment Block'})
+	TT=[915](`tt:weekday` ELEMENT OF {'Sun'})
+-------------------------------------------------------------------------------
+Node [3697]: (CT=18, AT=2427, TT=913), containing 91321 events.
+	CT=[18](`ct:item_type` ELEMENT OF {'Service', 'Standard', 'Third-party'})
+	AT=[2427](`at:phase` ELEMENT OF {'Cancel Subsequent Invoice', 'Change Price', 'Change Quantity', 'Change Storage Location', 'Change payment term', 'Create Purchase Order Item', 'Reactivate Purchase Order Item', 'Record Goods Receipt', 'SRM: Held', 'SRM: Transaction Completed', 'Set Payment Block'})
+	TT=[913](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Sat', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [5835]: (CT=17, AT=4109, TT=913), containing 359 events.
+	CT=[17](`ct:item_type` ELEMENT OF {'Subcontracting'})
+	AT=[4109](`at:phase` ELEMENT OF {'Cancel Invoice Receipt', 'Clear Invoice', 'Record Invoice Receipt', 'Record Service Entry Sheet', 'Remove Payment Block', 'SRM: Change was Transmitted', 'SRM: Document Completed', 'SRM: Ordered', 'Vendor creates debit memo', 'Vendor creates invoice'})
+	TT=[913](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Sat', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [5837]: (CT=18, AT=4109, TT=915), containing 1737 events.
+	CT=[18](`ct:item_type` ELEMENT OF {'Service', 'Standard', 'Third-party'})
+	AT=[4109](`at:phase` ELEMENT OF {'Cancel Invoice Receipt', 'Clear Invoice', 'Record Invoice Receipt', 'Record Service Entry Sheet', 'Remove Payment Block', 'SRM: Change was Transmitted', 'SRM: Document Completed', 'SRM: Ordered', 'Vendor creates debit memo', 'Vendor creates invoice'})
+	TT=[915](`tt:weekday` ELEMENT OF {'Sun'})
+-------------------------------------------------------------------------------
+Node [5839]: (CT=18, AT=4109, TT=913), containing 217514 events.
+	CT=[18](`ct:item_type` ELEMENT OF {'Service', 'Standard', 'Third-party'})
+	AT=[4109](`at:phase` ELEMENT OF {'Cancel Invoice Receipt', 'Clear Invoice', 'Record Invoice Receipt', 'Record Service Entry Sheet', 'Remove Payment Block', 'SRM: Change was Transmitted', 'SRM: Document Completed', 'SRM: Ordered', 'Vendor creates debit memo', 'Vendor creates invoice'})
+	TT=[913](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Sat', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [8431]: (CT=17, AT=6105, TT=913), containing 10 events.
+	CT=[17](`ct:item_type` ELEMENT OF {'Subcontracting'})
+	AT=[6105](`at:phase` ELEMENT OF {'Cancel Goods Receipt', 'Change Approval for Purchase Order', 'Change Delivery Indicator', 'Change Rejection Indicator', 'Receive Order Confirmation'})
+	TT=[913](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Sat', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [10871]: (CT=18, AT=7865, TT=915), containing 1 events.
+	CT=[18](`ct:item_type` ELEMENT OF {'Service', 'Standard', 'Third-party'})
+	AT=[7865](`at:phase` ELEMENT OF {'SRM: Deleted'})
+	TT=[915](`tt:weekday` ELEMENT OF {'Sun'})
+-------------------------------------------------------------------------------
+Node [8433]: (CT=18, AT=6105, TT=915), containing 10 events.
+	CT=[18](`ct:item_type` ELEMENT OF {'Service', 'Standard', 'Third-party'})
+	AT=[6105](`at:phase` ELEMENT OF {'Cancel Goods Receipt', 'Change Approval for Purchase Order', 'Change Delivery Indicator', 'Change Rejection Indicator', 'Receive Order Confirmation'})
+	TT=[915](`tt:weekday` ELEMENT OF {'Sun'})
+-------------------------------------------------------------------------------
+Node [10872]: (CT=18, AT=7865, TT=913), containing 155 events.
+	CT=[18](`ct:item_type` ELEMENT OF {'Service', 'Standard', 'Third-party'})
+	AT=[7865](`at:phase` ELEMENT OF {'SRM: Deleted'})
+	TT=[913](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Sat', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [10873]: (CT=18, AT=7867, TT=913), containing 4 events.
+	CT=[18](`ct:item_type` ELEMENT OF {'Service', 'Standard', 'Third-party'})
+	AT=[7867](`at:phase` ELEMENT OF {'Record Subsequent Invoice'})
+	TT=[913](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Sat', 'Thu', 'Tue', 'Wed'})
+-------------------------------------------------------------------------------
+Node [8435]: (CT=18, AT=6105, TT=913), containing 1227 events.
+	CT=[18](`ct:item_type` ELEMENT OF {'Service', 'Standard', 'Third-party'})
+	AT=[6105](`at:phase` ELEMENT OF {'Cancel Goods Receipt', 'Change Approval for Purchase Order', 'Change Delivery Indicator', 'Change Rejection Indicator', 'Receive Order Confirmation'})
+	TT=[913](`tt:weekday` ELEMENT OF {'Fri', 'Mon', 'Sat', 'Thu', 'Tue', 'Wed'})
