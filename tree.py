@@ -22,16 +22,19 @@ class TreeNode():
 
         rect = f'<rect x="{x}" y="{y}" width="{node_width}" height="{node_height}" rx="{node_radius}" ry="{node_radius}" style="fill:#DBEEF4;stroke-width:3;stroke:rgb(0,0,0)"\n/>'
 
-        y_text_label = y+node_height/4
+        # y_text_label = y+node_height/4
 
-        text_label = f'<text x="{x+node_width/2}" y="{y_text_label}" font-size="{node_font_size}" text-anchor="middle" alignment-baseline="middle">label={self.label}</text>\n'
+        # text_label = f'<text x="{x+node_width/2}" y="{y_text_label}" font-size="{node_font_size}" text-anchor="middle" alignment-baseline="middle">label={self.label}</text>\n'
 
-        y_text_items = y+node_height/4*3
+        # y_text_items = y+node_height/4*3
+        y_text_items = y+node_height/2
 
-        text_items = f'<text x="{x+node_width/2}" y="{y_text_items}" font-size="{node_font_size}" text-anchor="middle" alignment-baseline="middle">n_items={len(self.object.event_ids)}</text>\n'
+        text_items = f'<text x="{x+node_width/2}" y="{y_text_items}" font-size="{node_font_size}" text-anchor="middle" alignment-baseline="middle"># items = {len(self.object.event_ids)}</text>\n'
 
 
-        return rect+text_label+text_items
+        # return rect+text_label+text_items
+        return rect+text_items
+
 
     def getLine_svg(self, node_height, node_width, margin_x, margin_y, node_font_size, sizeDataBox, rule_text):
         line_width = 20
@@ -199,7 +202,7 @@ class TreePrinter():
     # add metrics
     def _addMetrics(self):
         for i, val in enumerate(self.treeHistory):
-            if i == self.last_level:
+            if i == self.last_level +1:
                 break
             dis = val['dispersal']
             imp = val['impurity']
