@@ -58,14 +58,14 @@ class TreeNode():
                 rect_width = line_width*node_font_size/3*0.925
                 rect_x = (x1+x2)/2-rect_width/2
                 rect_y = (y1+y2)/2-rect_height/2
-                rect = f'<rect x="{rect_x}" y="{rect_y}" width="{rect_width}" height="{rect_height}" fill="898989" stroke="black" stroke-width="1" />\n'
+                rect = f'<rect x="{rect_x}" y="{rect_y}" width="{rect_width}" height="{rect_height}" fill="#898989" stroke="black" stroke-width="1" />\n'
                 return line+rect
 
         rect_height = len(lines_of_text)*node_font_size/2
         rect_width = line_width*node_font_size/3*0.925
         rect_x = (x1+x2)/2-rect_width/2
         rect_y = (y1+y2)/2-rect_height/2
-        rect = f'<rect x="{rect_x}" y="{rect_y}" width="{rect_width}" height="{rect_height}" fill="898989" stroke="black" stroke-width="1" />\n'
+        rect = f'<rect x="{rect_x}" y="{rect_y}" width="{rect_width}" height="{rect_height}" fill="#898989" stroke="black" stroke-width="1" />\n'
         texts=""
         for i, text_line in enumerate(lines_of_text):
             texts += f'<text x="{rect_x}" y="{rect_y+i*node_font_size/2}" alignment-baseline="hanging" font-size="{node_font_size/2}">{text_line}</text>\n'
