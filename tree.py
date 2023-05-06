@@ -48,7 +48,7 @@ class TreeNode():
 
         lines_of_text = self.splitText(rule_text, line_width)
 
-        line = f'<line x1="{x1}" y1="{y1}" x2="{x2}" y2="{y2}" style="stroke:rgb(100,255,100);stroke-width:2" />\n'
+        line = f'<line x1="{x1}" y1="{y1}" x2="{x2}" y2="{y2}" style="stroke:rgb(155,187,89);stroke-width:2" />\n'
 
         # precheck to prevent errors
         if self.parent and self.parent.parent:
