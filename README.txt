@@ -15,8 +15,8 @@ IMPORTANT: Follow all the instructions in the Jupyter Notebooks regarding instal
 2. Output files
 
     a. Most ouputs will automatically show up in the "learn_all.ipynb" or "learn_all 2019.ipynb" Jupyter Notebooks when they are being executed.
-    b. The output in form of the decision trees are stored to the seperate files "tree_paper.svg", "tree.svg" and "treebpic15_AEST.svg" in the folder "trees" in order to keep the Jupyter Notebooks clean.
+    b. The outputs in form of the decision trees are stored to the seperate files "tree_paper.svg", "tree.svg" and "treebpic15_AEST.svg" in the folder "trees" in order to keep the Jupyter Notebooks clean.
     c. The ouputs of the ODT-Miner executions are stored in the files of the folder "results".
 
 
-3. If you are interested in the original code files by the authors of the paper "No Time To Dice", take a look at the following GitHub Repository: https://github.com/roy-jingyang/Org-Learn_Exe_Context 
+3. If you are furthermore interested in the original code files by the authors of the paper "No Time To Dice", take a look at the following GitHub Repository: https://github.com/roy-jingyang/Org-Learn_Exe_Context 
