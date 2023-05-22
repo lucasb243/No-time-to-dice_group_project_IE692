@@ -26,4 +26,4 @@
     c. "tree.py" was created to visualize the decision trees. It is automatically used in "learn_all.ipynb"
     d. "bpic15_amended_typed" was the only event log in the authors repository. It contains the execution context in the column "CO". The readability of this is higher than in our files("data/added_execution_contexts") because the execution contexts were added manually.
 
-4. If you are furthermore interested in the original code files by the authors of the paper "No Time To Dice", take a look at the following GitHub Repository: https://github.com/roy-jingyang/Org-Learn_Exe_Context 
+4. If you are furthermore interested in the original code files by the authors of the paper "No Time To Dice", take a look at the following GitHub Repository: https://github.com/roy-jingyang/Org-Learn_Exe_Context. The development version of OrdinoR is available at https://github.com/roy-jingyang/OrdinoR/tree/dev-learn_exec.
